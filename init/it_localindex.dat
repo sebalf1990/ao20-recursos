@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9018
+NUMLOCALEMSG=9019
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -2273,6 +2273,7 @@ Msg9015=Questa missione non è disponibile per la tua fazione.
 Msg9016=Non puoi segnalare te stesso.
 Msg9017=Hai raggiunto il limite di ¬1 segnalazioni all'ora. Riprova più tardi.
 Msg9018=Hai già segnalato ¬1 meno di un'ora fa.
+Msg9019=Le segnalazioni sono sature al momento. Riprova più tardi.
 
 [QUEST1]
 Nombre=Riposo finale

@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9018
+NUMLOCALEMSG=9019
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -2273,6 +2273,7 @@ Msg9015=Esta missão não está disponível para sua facção.
 Msg9016=Você não pode denunciar a si mesmo.
 Msg9017=Você atingiu o limite de ¬1 denúncias por hora. Tente mais tarde.
 Msg9018=Você já denunciou ¬1 há menos de uma hora.
+Msg9019=As denúncias estão saturadas no momento. Tente mais tarde.
 
 [QUEST1]
 Nombre=Descanso final

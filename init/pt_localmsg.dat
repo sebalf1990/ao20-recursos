@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=9018
+NumLocalePT_Msg=9019
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -2240,3 +2240,4 @@ Msg9015=Esta missão não está disponível para sua facção.
 Msg9016=Você não pode denunciar a si mesmo.
 Msg9017=Você atingiu o limite de ¬1 denúncias por hora. Tente mais tarde.
 Msg9018=Você já denunciou ¬1 há menos de uma hora.
+Msg9019=As denúncias estão saturadas no momento. Tente mais tarde.

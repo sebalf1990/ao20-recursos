@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleSP_Msg=9018
+NumLocaleSP_Msg=9019
 
 [SP_MSG]
 Msg1=[¬1] ha sido expulsado del clan ya que modificó su alineamiento.
@@ -2240,3 +2240,4 @@ Msg9015=Esta misión no está disponible para tu facción.
 Msg9016=No podés denunciarte a vos mismo.
 Msg9017=Llegaste al límite de ¬1 denuncias por hora. Probá más tarde.
 Msg9018=Ya denunciaste a ¬1 hace menos de una hora.
+Msg9019=Las denuncias están saturadas en este momento. Probá más tarde.

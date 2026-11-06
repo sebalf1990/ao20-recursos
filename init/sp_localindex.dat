@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9018
+NUMLOCALEMSG=9019
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -64822,6 +64822,7 @@ Msg9015=Esta misión no está disponible para tu facción.
 Msg9016=No podés denunciarte a vos mismo.
 Msg9017=Llegaste al límite de ¬1 denuncias por hora. Probá más tarde.
 Msg9018=Ya denunciaste a ¬1 hace menos de una hora.
+Msg9019=Las denuncias están saturadas en este momento. Probá más tarde.
 
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!

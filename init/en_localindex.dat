@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9018
+NUMLOCALEMSG=9019
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -2273,6 +2273,7 @@ Msg9015=This mission is not available for your faction.
 Msg9016=You cannot report yourself.
 Msg9017=You reached the limit of ¬1 reports per hour. Try again later.
 Msg9018=You already reported ¬1 less than an hour ago.
+Msg9019=Reports are saturated right now. Try again later.
 
 [QUEST1]
 Nombre=Final Rest
