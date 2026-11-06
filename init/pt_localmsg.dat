@@ -1,5 +1,5 @@
 [INIT]
-NumLocalePT_Msg=9015
+NumLocalePT_Msg=9018
 
 [PT_MSG]
 Msg1=[¬1] foi expulso do clã ao modificar seu alinhamento.
@@ -2237,3 +2237,6 @@ Msg9012=Você recebeu ¬1 de dano de ¬2.
 Msg9013=Voce nao pode mais atribuir pontos a essa habilidade: ela nao tem mais uso.
 Msg9014=Para fundar um clã, você precisa de ¬1 moedas de ouro.
 Msg9015=Esta missão não está disponível para sua facção.
+Msg9016=Você não pode denunciar a si mesmo.
+Msg9017=Você atingiu o limite de ¬1 denúncias por hora. Tente mais tarde.
+Msg9018=Você já denunciou ¬1 há menos de uma hora.

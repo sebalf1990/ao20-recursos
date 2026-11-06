@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleEN_Msg=9015
+NumLocaleEN_Msg=9018
 
 [EN_MSG]
 Msg1=[¬1] has been kicked out of the guild because they changed their alignment.
@@ -2237,3 +2237,6 @@ Msg9012=You received ¬1 ¬2 damage.
 Msg9013=You can no longer assign points to that skill: it has no use.
 Msg9014=To found a guild, you need ¬1 gold coins.
 Msg9015=This mission is not available for your faction.
+Msg9016=You cannot report yourself.
+Msg9017=You reached the limit of ¬1 reports per hour. Try again later.
+Msg9018=You already reported ¬1 less than an hour ago.

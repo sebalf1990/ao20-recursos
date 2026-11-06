@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9015
+NUMLOCALEMSG=9018
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -64819,6 +64819,9 @@ Msg9012=Recibiste ¬1 de daño de ¬2.
 Msg9013=No podes asignar puntos a ese skill: ya no tiene uso.
 Msg9014=Para fundar un clan necesitas ¬1 monedas de oro.
 Msg9015=Esta misión no está disponible para tu facción.
+Msg9016=No podés denunciarte a vos mismo.
+Msg9017=Llegaste al límite de ¬1 denuncias por hora. Probá más tarde.
+Msg9018=Ya denunciaste a ¬1 hace menos de una hora.
 
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!

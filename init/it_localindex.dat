@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9015
+NUMLOCALEMSG=9018
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9235
@@ -2270,6 +2270,9 @@ Msg9012=Hai subito ¬1 danni di ¬2.
 Msg9013=Non puoi piu assegnare punti a quell'abilita: non ha piu utilizzo.
 Msg9014=Per fondare un clan, hai bisogno di ¬1 monete d'oro.
 Msg9015=Questa missione non è disponibile per la tua fazione.
+Msg9016=Non puoi segnalare te stesso.
+Msg9017=Hai raggiunto il limite di ¬1 segnalazioni all'ora. Riprova più tardi.
+Msg9018=Hai già segnalato ¬1 meno di un'ora fa.
 
 [QUEST1]
 Nombre=Riposo finale

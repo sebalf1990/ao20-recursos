@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=9015
+NumLocaleFR_Msg=9018
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2237,3 +2237,6 @@ Msg9012=Vous avez subi ¬1 dégâts de ¬2.
 Msg9013=Vous ne pouvez plus attribuer de points a cette competence : elle n'a plus d'utilite.
 Msg9014=Pour fonder un clan, vous avez besoin de ¬1 pièces d'or.
 Msg9015=Cette mission n'est pas disponible pour votre faction.
+Msg9016=Vous ne pouvez pas vous signaler vous-même.
+Msg9017=Vous avez atteint la limite de ¬1 signalements par heure. Réessayez plus tard.
+Msg9018=Vous avez déjà signalé ¬1 il y a moins d'une heure.
