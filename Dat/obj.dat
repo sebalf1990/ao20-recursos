@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9235
+NumOBJs=9236
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84643,3 +84643,15 @@ Valor=7200
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Cota de Gladiador (Drow)
 
+
+[OBJ9236] 'Plan radar-v2: pergamino de Detectar el Mal (hechizo 294). No existia: OBJ6260 paso a ser una llave
+Name=Detectar el Mal
+GrhIndex=609
+Valor=50
+HechizoIndex=294
+CP1=GUERRERO
+CP2=CAZADOR
+CP3=TRABAJADOR
+CP4=PIRATA
+Objtype=24
+Texto=Detectar el Mal
