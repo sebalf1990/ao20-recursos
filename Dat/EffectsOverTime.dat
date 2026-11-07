@@ -813,6 +813,7 @@ OnHitWAV=0
 ClientEffectTypeId=26
 
 [EOT61] 'minimap hostile npc radar - 30s buff
+RadarVe=hostiles
 Type=18
 TickTime=30000
 Ticks=1
@@ -822,6 +823,7 @@ BuffType=5
 ClientEffectTypeId=0
 
 [EOT62] 'Hechizo Detectar Personajes - radar de usuarios filtrado - 30s buff
+RadarVe=ciudadanos,criminales,imperiales,caos
 Type=19
 TickTime=30000
 Ticks=1
