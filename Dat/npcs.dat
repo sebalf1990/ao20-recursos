@@ -1737,6 +1737,7 @@ DisabledInBattleServer=1
 CollectibleCardIndex=15
 
 [NPC400] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Abyssal
 Body=4827
 BodyIdle=4110
@@ -3405,6 +3406,7 @@ CollectibleCardIndex=196
 '--- fin copia privada ---
 
 [NPC532] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Gigante de Hielo
 Body=5145
 BodyIdle=5143
@@ -3629,6 +3631,7 @@ Drop1=951-10000-1-1
 '--- fin copia privada ---
 
 [NPC536] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Escarlath
 Body=4871
 Head=0
@@ -4127,6 +4130,7 @@ Drop1=509-500-1-1
 '--- fin copia privada ---
 
 [NPC549] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Infernus
 Body=4825
 BodyIdle=4046
@@ -5779,6 +5783,7 @@ MagicDef=15
 
 **********************************
 [NPC621] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
+RadarJefe=1
 Name=Golem de Piedra
 Body=4875
 Head=0
@@ -5829,6 +5834,7 @@ Ataque1=4835
 GiveEXP=0
 GiveGLD=0
 [NPC623] 'RESYNC desde sp_localindex.dat (fase B) | cartas: plan 23.005
+RadarJefe=1
 Name=Zeraphon
 Body=5425
 BodyIdle=5423
@@ -7805,6 +7811,7 @@ DropQuest1=214-2231-1-2
 DropQuest2=286-2475-1-40
 
 [NPC755]'new gigante | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
+RadarJefe=1
 Name=Gigantor
 ShowName=0
 Head=0
@@ -8105,6 +8112,7 @@ CollectibleCardIndex=41
 '--- fin copia privada ---
 
 [NPC923] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Nocthral
 Body=5050
 BodyIdle=5048
@@ -9100,6 +9108,7 @@ NpcType=0
 Nivel=20
 
 [NPC970] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Kaelthor
 Body=5524
 Head=0
@@ -10249,6 +10258,7 @@ IntervaloRespawn=150
 CollectibleCardIndex=215
 
 [NPC1031] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
+RadarJefe=1
 Name=Umbrax
 Body=5078
 BodyIdle=5076
@@ -16534,6 +16544,7 @@ NpcType=0
 Nivel=20
 
 [NPC1364] 'Realineado a oficial 2026-06-08 (slot repropuesto) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
+RadarJefe=1
 Name=Golem de Hielo
 Body=4890
 Head=0
@@ -16825,6 +16836,7 @@ DisabledInBattleServer=1
 '--- fin copia privada ---
 
 [NPC1374] 'OFICIAL desde sp_localindex.dat (colision privada resuelta 2026-05-07) | cartas: plan 23.005
+RadarJefe=1
 Name=Ent Élfico
 Body=4927
 Head=0
@@ -20501,6 +20513,7 @@ Comercia=1
 NoMapInfo=1
 
 [NPC1808] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
+RadarJefe=1
 Name=Zull
 Body=6075
 Movement=2
@@ -20524,6 +20537,7 @@ Drop3=4960-100-1-1
 CollectibleCardIndex=195
 
 [NPC1809] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
+RadarJefe=1
 Name=Tyran
 Body=6077
 Movement=2
@@ -20748,6 +20762,7 @@ MinHIT=75
 CollectibleCardIndex=60
 
 [NPC809] 'Reconstruido de localindex oficial 2026-06-08 (repo capado, sin logica publica) | Elemento, stats, drops y reaparicion del oficial (API 2026-10-02). Plan 23.002 | cartas: plan 23.005
+RadarJefe=1
 Name=Golem de Fuego
 Body=4893
 Head=0
@@ -23298,6 +23313,7 @@ Movement=1
 CollectibleCardIndex=450
 
 [NPC873] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC621 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
+RadarJefe=1
 Name=Capitán Doral
 Head=0
 Body=466
@@ -23319,6 +23335,7 @@ PoderEvasion=190
 CollectibleCardIndex=447
 
 [NPC876] 'Alta Ola 3 (plan 17.001), pack 2026-10-01; pelea. PoderAtaque y PoderEvasion del NPC536 del oficial, vida mas parecida: SUPUESTO; sin drops | cartas: plan 23.005
+RadarJefe=1
 Name=Capitán Trang
 Head=0
 Body=472

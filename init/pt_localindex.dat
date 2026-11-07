@@ -3,7 +3,7 @@ NUMEROHECHIZO=425
 NUMLOCALEMSG=9019
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9235
+NUMOBJS=9236
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -63302,6 +63302,13 @@ MAXDEF=22
 MINDEF=15
 Valor=7200
 Texto=Cota de Gladiador (Drow)
+
+[OBJ9236]
+Name=Detectar el Mal
+GrhIndex=609
+Valor=50
+Objtype=24
+Texto=Detectar el Mal
 
 [NPC9000]
 Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
