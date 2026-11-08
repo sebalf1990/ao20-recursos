@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9025
+NUMLOCALEMSG=9028
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9236
@@ -1010,8 +1010,8 @@ Msg1021=Vieni sulla costa per pescare.
 Msg1022=Per estrarre l'oro ti serve un piccone da minatore dorato.
 Msg1023=Sei stato di nuovo visibile!
 Msg1024=Ti sei mimetizzato come una barca fantasma!
-Msg1025=Solo i Pirati e i pescatori possono usare la galea!
-Msg1026=Solo i pirati possono usare il galeone !!
+Msg1025=Non hai ancora il livello per usare la galea.
+Msg1026=Non hai ancora il livello per usare il galeone.
 Msg1027=Perdi l'effetto del mimetismo.
 Msg1028=Non puoi rubare agli obiettivi immobilizzati.
 Msg1029=Non puoi rubare gli utenti in consultazione!
@@ -2254,32 +2254,35 @@ Msg2290=Commercio completato con successo.
 Msg2291=Non puoi attaccare un rivale protetto dal suo clan.
 Msg2292=Non puoi consumare altre carte di questo tipo.
 Msg2293=I tuoi animali domestici sono stati riposti.
-Msg9000=Non hai appreso questa professione.
-Msg9001=Hai appreso la professione ?1.
-Msg9002=Hai dimenticato la professione ?1.
-Msg9003=Conosci gia 2 professioni. Dimenticane una prima di impararne un altra.
-Msg9004=Hai raggiunto il limite di dimenticanze per questo personaggio. Non puoi piu dimenticare o imparare un altra professione.
-Msg9005=Non puoi imparare altre professioni: hai gia usato tutte le dimenticanze consentite.
-Msg9006=Conosci gia questa professione.
-Msg9007=Non puoi usare questo oggetto senza aver appreso la professione richiesta.
+Msg9000=Ti serve la professione ¬1. Compra il manuale dal maestro della tua città.
+Msg9001=Hai appreso la professione ¬1.
+Msg9002=Hai dimenticato la professione ¬1.
+Msg9003=Conosci già 2 professioni. Dimenticane una prima di impararne un'altra.
+Msg9004=Hai raggiunto il limite di dimenticanze per questo personaggio. Non puoi più dimenticare né imparare un'altra professione.
+Msg9005=Non puoi imparare altre professioni: hai già usato tutte le dimenticanze consentite.
+Msg9006=Conosci già questa professione.
+Msg9007=Ti serve la professione ¬1 per usare questo oggetto. Compra il manuale dal maestro della tua città.
 Msg9008=Non puoi assegnare punti a una professione che non hai appreso.
 Msg9009=Questo maestro non compra oggetti.
-Msg9010=La classe Lavoratore non e disponibile con professioni apprendibili attive.
+Msg9010=La classe Lavoratore non è disponibile con le professioni apprendibili attive.
 Msg9011=Hai inflitto ¬1 di ¬2 alla creatura.
 Msg9012=Hai subito ¬1 danni di ¬2.
-Msg9013=Non puoi piu assegnare punti a quell'abilita: non ha piu utilizzo.
+Msg9013=Non puoi assegnare punti a quell'abilità: non viene più utilizzata. Le navi richiedono solo il livello e i gruppi hanno regole fisse.
 Msg9014=Per fondare un clan, hai bisogno di ¬1 monete d'oro.
 Msg9015=Questa missione non è disponibile per la tua fazione.
 Msg9016=Non puoi segnalare te stesso.
 Msg9017=Hai raggiunto il limite di ¬1 segnalazioni all'ora. Riprova più tardi.
 Msg9018=Hai già segnalato ¬1 meno di un'ora fa.
 Msg9019=Le segnalazioni sono sature al momento. Riprova più tardi.
-Msg9020=You are too tired to keep working, put away your tool for 5 seconds and then continue.
-Msg9021=You are still tired, wait ¬1 seconds without your tool.
-Msg9022=You are too tired to keep smelting, rest for ¬1 seconds and then continue.
-Msg9023=You have rested, you can work again.
-Msg9024=You need to be level ¬1 to cast this spell.
-Msg9025=This ability is not available.
+Msg9020=Sei troppo stanco per continuare a lavorare, lascia il tuo attrezzo per ¬1 secondi e poi riprendi.
+Msg9021=Sei ancora stanco, aspetta ¬1 secondi senza il tuo attrezzo.
+Msg9022=Sei troppo stanco per continuare a fondere, riposa per ¬1 secondi e poi riprendi.
+Msg9023=Ti sei riposato, puoi tornare a lavorare.
+Msg9024=Devi essere di livello ¬1 per lanciare questo incantesimo.
+Msg9025=Questa abilità non è disponibile.
+Msg9026=Non conosci la professione ¬1.
+Msg9027=Il gruppo è già al completo (massimo ¬1).
+Msg9028=Le professioni apprendibili non sono attive al momento.
 
 [QUEST1]
 Nombre=Riposo finale
@@ -20798,8 +20801,8 @@ Madera=20000
 Valor=240000
 
 [OBJ475]
-Name=Cambusa
-texto=Richiede livello 33. Esclusiva di Pirati e pescatori di professione. Si acquista nei porti o si fabbrica con Carpenteria 93.
+Name=Galea
+texto=Richiede livello 33. Si acquista nei porti o si fabbrica con Carpenteria 93.
 GrhIndex=11568
 ObjType=31
 Madera=5000
@@ -20811,7 +20814,7 @@ MinDef=5
 MaxDef=10
 
 [OBJ476]
-Name=Galeón
+Name=Galeone
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
@@ -20820,7 +20823,7 @@ MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
+Texto=Richiede livello 41. Si acquista nei porti o si fabbrica con Carpenteria 100.
 
 [OBJ477]
 Name=Traje de Novio
@@ -20844,8 +20847,8 @@ Valor=340
 Texto=Traje de Novio
 
 [OBJ478]
-Name=Galeon Premium
-Texto=Richiede livello 25. Esclusivo dei Pirati.
+Name=Galeone Premium
+Texto=Richiede livello 25.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -53372,102 +53375,102 @@ CollectibleCardRarity=1
 ObjType=57
 
 [OBJ9000]
-Name=Manual de Carpinteria
+Name=Manuale di Carpenteria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
+Texto=Un manuale che insegna i segreti della professione di carpenteria. Usalo per impararla.
 
 [OBJ9007]
-Name=Pocion de Olvido (Carpinteria)
+Name=Pozione dell'Oblio (Carpenteria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
+Texto=Bevi questa pozione per dimenticare la professione di carpenteria.
 
 [OBJ9001]
-Name=Manual de Herreria
+Name=Manuale di Fabbro
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Herreria.
+Texto=Un manuale che insegna i segreti della professione di fabbro. Usalo per impararla.
 
 [OBJ9008]
-Name=Pocion de Olvido (Herreria)
+Name=Pozione dell'Oblio (Fabbro)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Herreria.
+Texto=Bevi questa pozione per dimenticare la professione di fabbro.
 
 [OBJ9002]
-Name=Manual de Sastreria
+Name=Manuale di Sartoria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Sastreria.
+Texto=Un manuale che insegna i segreti della professione di sartoria. Usalo per impararla.
 
 [OBJ9009]
-Name=Pocion de Olvido (Sastreria)
+Name=Pozione dell'Oblio (Sartoria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
+Texto=Bevi questa pozione per dimenticare la professione di sartoria.
 
 [OBJ9003]
-Name=Manual de Alquimia
+Name=Manuale di Alchimia
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Alquimia.
+Texto=Un manuale che insegna i segreti della professione di alchimia. Usalo per impararla.
 
 [OBJ9010]
-Name=Pocion de Olvido (Alquimia)
+Name=Pozione dell'Oblio (Alchimia)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
+Texto=Bevi questa pozione per dimenticare la professione di alchimia.
 
 [OBJ9004]
-Name=Manual de Pesca
+Name=Manuale di Pesca
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Pesca.
+Texto=Un manuale che insegna i segreti della professione di pesca. Usalo per impararla.
 
 [OBJ9011]
-Name=Pocion de Olvido (Pesca)
+Name=Pozione dell'Oblio (Pesca)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Pesca.
+Texto=Bevi questa pozione per dimenticare la professione di pesca.
 
 [OBJ9005]
-Name=Manual de Tala
+Name=Manuale di Taglio della legna
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Tala.
+Texto=Un manuale che insegna i segreti della professione di taglio della legna. Usalo per impararla.
 
 [OBJ9012]
-Name=Pocion de Olvido (Tala)
+Name=Pozione dell'Oblio (Taglio della legna)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Tala.
+Texto=Bevi questa pozione per dimenticare la professione di taglio della legna.
 
 [OBJ9006]
-Name=Manual de Mineria
+Name=Manuale di Estrazione mineraria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Mineria.
+Texto=Un manuale che insegna i segreti della professione di estrazione mineraria. Usalo per impararla.
 
 [OBJ9013]
-Name=Pocion de Olvido (Mineria)
+Name=Pozione dell'Oblio (Estrazione mineraria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Mineria.
+Texto=Bevi questa pozione per dimenticare la professione di estrazione mineraria.
 
 [OBJ5088]
 Name=Morgrim Nro. 1 Con Llave
@@ -63317,8 +63320,8 @@ Objtype=24
 Texto=Detectar el Mal
 
 [NPC9000]
-Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Maestro Carpentiere e Boscaiolo <Carpenteria e Taglio della legna>
+Desc=Un maestro che insegna le sue professioni in cambio di oro.
 Body=141
 Head=74
 Comercia=1
@@ -63329,8 +63332,8 @@ Obj2=9007-1000
 Obj3=9005-1000
 
 [NPC9001]
-Name=Maestro Herrero y Minero <Herreria y Mineria>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Maestro Fabbro e Minatore <Fabbro e Estrazione mineraria>
+Desc=Un maestro che insegna le sue professioni in cambio di oro.
 Body=141
 Head=74
 Comercia=1
@@ -63352,8 +63355,8 @@ Obj1=9002-1000
 Obj2=9009-1000
 
 [NPC9003]
-Name=Maestro Alquimista y Sastre <Alquimia y Sastreria>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Maestro Alchimista e Sarto <Alchimia e Sartoria>
+Desc=Un maestro che insegna le sue professioni in cambio di oro.
 Body=141
 Head=74
 Comercia=1
@@ -63364,8 +63367,8 @@ Obj2=9010-1000
 Obj3=9002-1000
 
 [NPC9004]
-Name=Maestro Pescador <Pesca>
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Name=Maestro Pescatore <Pesca>
+Desc=Un maestro che insegna la sua professione in cambio di oro.
 Body=141
 Head=74
 Comercia=1

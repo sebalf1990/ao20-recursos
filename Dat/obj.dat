@@ -6196,7 +6196,7 @@ Velocidad=1
 MinHit=0
 IT_texto=Richiede livello 25. Si acquista nei porti o si fabbrica con Carpenteria 73.
 IT_Name=Barca
-FR_texto=Nécessite niveau 25. S'achète dans les ports ou se fabrique avec Charpenterie 73.
+FR_texto=Nécessite niveau 25. S'achète dans les ports ou se fabrique avec Menuiserie 73.
 FR_Name=Bateau
 PT_texto=Requer nível 25. Compra-se nos portos ou fabrica-se com Carpintaria 73.
 PT_Name=Barco
@@ -6219,12 +6219,12 @@ Subtipo=2
 MinSkill=0
 MinELV=33
 Velocidad=1.2
-IT_texto=Richiede livello 33. Esclusiva di Pirati e pescatori di professione. Si acquista nei porti o si fabbrica con Carpenteria 93.
-IT_Name=Cambusa
-FR_texto=Nécessite niveau 33. Exclusive aux Pirates et pêcheurs de métier. S'achète dans les ports ou se fabrique avec Charpenterie 93.
+IT_texto=Richiede livello 33. Si acquista nei porti o si fabbrica con Carpenteria 93.
+IT_Name=Galea
+FR_texto=Nécessite niveau 33. S'achète dans les ports ou se fabrique avec Menuiserie 93.
 FR_Name=Galère
-PT_texto=Requer nível 33. Exclusiva de Piratas e pescadores de ofício. Compra-se nos portos ou fabrica-se com Carpintaria 93.
-PT_Name=Galley
+PT_texto=Requer nível 33. Compra-se nos portos ou fabrica-se com Carpintaria 93.
+PT_Name=Galera
 en_Name=Galley
 NUMROPAJE=85
 GrhIndex=11568
@@ -6239,8 +6239,8 @@ MinDef=5
 MaxDef=10
 subastable=1
 Crucial=0
-Texto=Requiere nivel 33. Exclusiva de Piratas y pescadores de oficio. Se compra en los muelles o se fabrica con Carpintería 93.
-en_texto=Requires level 33. Exclusive to Pirates and professional fishermen. Buy it at the docks or craft it with Carpentry 93.
+Texto=Requiere nivel 33. Se compra en los muelles o se fabrica con Carpintería 93.
+en_texto=Requires level 33. Buy it at the docks or craft it with Carpentry 93.
 
 [OBJ476]
 Name=Galeón
@@ -6258,10 +6258,17 @@ MaxHIT=25
 MINDEF=15
 MAXDEF=20
 subastable=1
-Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
+Texto=Requiere nivel 41. Se compra en los muelles o se fabrica con Carpintería 100.
 Velocidad=1.2
 Crucial=0
-en_texto=Requires level 41. Exclusive to Pirates. Buy it at the docks or craft it with Carpentry 100.
+en_texto=Requires level 41. Buy it at the docks or craft it with Carpentry 100.
+IT_texto=Richiede livello 41. Si acquista nei porti o si fabbrica con Carpenteria 100.
+FR_texto=Nécessite niveau 41. S'achète dans les ports ou se fabrique avec Menuiserie 100.
+PT_texto=Requer nível 41. Compra-se nos portos ou fabrica-se com Carpintaria 100.
+en_Name=Galleon
+FR_Name=Galion
+IT_Name=Galeone
+PT_Name=Galeão
 
 [OBJ477]
 Name=Traje de Novio
@@ -63169,58 +63176,106 @@ fr_Name=Carta Chasdo
 it_Name=Carta Chasdo
 
 [OBJ9000]
-Name=Manual de Carpinteria
+Name=Manual de Carpintería
 GrhIndex=49210
 ObjType=1
 ProfesionId=21
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
+Texto=Un manual que enseña los secretos de la profesión de Carpintería. Usalo para aprenderla.
+en_Name=Carpentry Manual
+en_Texto=A manual that teaches the secrets of the carpentry profession. Use it to learn it.
+fr_Name=Manuel de Menuiserie
+fr_Texto=Un manuel qui enseigne les secrets de la profession de menuiserie. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Carpenteria
+it_Texto=Un manuale che insegna i segreti della professione di carpenteria. Usalo per impararla.
+pt_Name=Manual de Carpintaria
+pt_Texto=Um manual que ensina os segredos da profissão de carpintaria. Use-o para aprendê-la.
 
 [OBJ9007]
-Name=Pocion de Olvido (Carpinteria)
+Name=Poción de Olvido (Carpintería)
 GrhIndex=28748
 ObjType=11
 ProfesionId=21
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
+Texto=Bebé esta poción para olvidar la profesión de Carpintería.
+en_Name=Potion of Forgetting (Carpentry)
+en_Texto=Drink this potion to forget the carpentry profession.
+fr_Name=Potion d'Oubli (Menuiserie)
+fr_Texto=Buvez cette potion pour oublier la profession de menuiserie.
+it_Name=Pozione dell'Oblio (Carpenteria)
+it_Texto=Bevi questa pozione per dimenticare la professione di carpenteria.
+pt_Name=Poção do Esquecimento (Carpintaria)
+pt_Texto=Beba esta poção para esquecer a profissão de carpintaria.
 
 [OBJ9001]
-Name=Manual de Herreria
+Name=Manual de Herrería
 GrhIndex=49210
 ObjType=1
 ProfesionId=20
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Herreria.
+Texto=Un manual que enseña los secretos de la profesión de Herrería. Usalo para aprenderla.
+en_Name=Smithing Manual
+en_Texto=A manual that teaches the secrets of the smithing profession. Use it to learn it.
+fr_Name=Manuel de Forge
+fr_Texto=Un manuel qui enseigne les secrets de la profession de forge. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Fabbro
+it_Texto=Un manuale che insegna i segreti della professione di fabbro. Usalo per impararla.
+pt_Name=Manual de Ferraria
+pt_Texto=Um manual que ensina os segredos da profissão de ferraria. Use-o para aprendê-la.
 
 [OBJ9008]
-Name=Pocion de Olvido (Herreria)
+Name=Poción de Olvido (Herrería)
 GrhIndex=28748
 ObjType=11
 ProfesionId=20
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Herreria.
+Texto=Bebé esta poción para olvidar la profesión de Herrería.
+en_Name=Potion of Forgetting (Smithing)
+en_Texto=Drink this potion to forget the smithing profession.
+fr_Name=Potion d'Oubli (Forge)
+fr_Texto=Buvez cette potion pour oublier la profession de forge.
+it_Name=Pozione dell'Oblio (Fabbro)
+it_Texto=Bevi questa pozione per dimenticare la professione di fabbro.
+pt_Name=Poção do Esquecimento (Ferraria)
+pt_Texto=Beba esta poção para esquecer a profissão de ferraria.
 
 [OBJ9002]
-Name=Manual de Sastreria
+Name=Manual de Sastrería
 GrhIndex=49210
 ObjType=1
 ProfesionId=23
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Sastreria.
+Texto=Un manual que enseña los secretos de la profesión de Sastrería. Usalo para aprenderla.
+en_Name=Tailoring Manual
+en_Texto=A manual that teaches the secrets of the tailoring profession. Use it to learn it.
+fr_Name=Manuel de Couture
+fr_Texto=Un manuel qui enseigne les secrets de la profession de couture. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Sartoria
+it_Texto=Un manuale che insegna i segreti della professione di sartoria. Usalo per impararla.
+pt_Name=Manual de Alfaiataria
+pt_Texto=Um manual que ensina os segredos da profissão de alfaiataria. Use-o para aprendê-la.
 
 [OBJ9009]
-Name=Pocion de Olvido (Sastreria)
+Name=Poción de Olvido (Sastrería)
 GrhIndex=28748
 ObjType=11
 ProfesionId=23
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
+Texto=Bebé esta poción para olvidar la profesión de Sastrería.
+en_Name=Potion of Forgetting (Tailoring)
+en_Texto=Drink this potion to forget the tailoring profession.
+fr_Name=Potion d'Oubli (Couture)
+fr_Texto=Buvez cette potion pour oublier la profession de couture.
+it_Name=Pozione dell'Oblio (Sartoria)
+it_Texto=Bevi questa pozione per dimenticare la professione di sartoria.
+pt_Name=Poção do Esquecimento (Alfaiataria)
+pt_Texto=Beba esta poção para esquecer a profissão de alfaiataria.
 
 [OBJ9003]
 Name=Manual de Alquimia
@@ -63229,16 +63284,32 @@ ObjType=1
 ProfesionId=22
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Alquimia.
+Texto=Un manual que enseña los secretos de la profesión de Alquimia. Usalo para aprenderla.
+en_Name=Alchemy Manual
+en_Texto=A manual that teaches the secrets of the alchemy profession. Use it to learn it.
+fr_Name=Manuel d'Alchimie
+fr_Texto=Un manuel qui enseigne les secrets de la profession d'alchimie. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Alchimia
+it_Texto=Un manuale che insegna i segreti della professione di alchimia. Usalo per impararla.
+pt_Name=Manual de Alquimia
+pt_Texto=Um manual que ensina os segredos da profissão de alquimia. Use-o para aprendê-la.
 
 [OBJ9010]
-Name=Pocion de Olvido (Alquimia)
+Name=Poción de Olvido (Alquimia)
 GrhIndex=28748
 ObjType=11
 ProfesionId=22
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
+Texto=Bebé esta poción para olvidar la profesión de Alquimia.
+en_Name=Potion of Forgetting (Alchemy)
+en_Texto=Drink this potion to forget the alchemy profession.
+fr_Name=Potion d'Oubli (Alchimie)
+fr_Texto=Buvez cette potion pour oublier la profession d'alchimie.
+it_Name=Pozione dell'Oblio (Alchimia)
+it_Texto=Bevi questa pozione per dimenticare la professione di alchimia.
+pt_Name=Poção do Esquecimento (Alquimia)
+pt_Texto=Beba esta poção para esquecer a profissão de alquimia.
 
 [OBJ9004]
 Name=Manual de Pesca
@@ -63247,16 +63318,32 @@ ObjType=1
 ProfesionId=18
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Pesca.
+Texto=Un manual que enseña los secretos de la profesión de Pesca. Usalo para aprenderla.
+en_Name=Fishing Manual
+en_Texto=A manual that teaches the secrets of the fishing profession. Use it to learn it.
+fr_Name=Manuel de Pêche
+fr_Texto=Un manuel qui enseigne les secrets de la profession de pêche. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Pesca
+it_Texto=Un manuale che insegna i segreti della professione di pesca. Usalo per impararla.
+pt_Name=Manual de Pesca
+pt_Texto=Um manual que ensina os segredos da profissão de pesca. Use-o para aprendê-la.
 
 [OBJ9011]
-Name=Pocion de Olvido (Pesca)
+Name=Poción de Olvido (Pesca)
 GrhIndex=28748
 ObjType=11
 ProfesionId=18
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Pesca.
+Texto=Bebé esta poción para olvidar la profesión de Pesca.
+en_Name=Potion of Forgetting (Fishing)
+en_Texto=Drink this potion to forget the fishing profession.
+fr_Name=Potion d'Oubli (Pêche)
+fr_Texto=Buvez cette potion pour oublier la profession de pêche.
+it_Name=Pozione dell'Oblio (Pesca)
+it_Texto=Bevi questa pozione per dimenticare la professione di pesca.
+pt_Name=Poção do Esquecimento (Pesca)
+pt_Texto=Beba esta poção para esquecer a profissão de pesca.
 
 [OBJ9005]
 Name=Manual de Tala
@@ -63265,34 +63352,66 @@ ObjType=1
 ProfesionId=17
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Tala.
+Texto=Un manual que enseña los secretos de la profesión de Tala. Usalo para aprenderla.
+en_Name=Woodcutting Manual
+en_Texto=A manual that teaches the secrets of the woodcutting profession. Use it to learn it.
+fr_Name=Manuel d'Exploitation forestière
+fr_Texto=Un manuel qui enseigne les secrets de la profession d'exploitation forestière. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Taglio della legna
+it_Texto=Un manuale che insegna i segreti della professione di taglio della legna. Usalo per impararla.
+pt_Name=Manual de Corte de árvores
+pt_Texto=Um manual que ensina os segredos da profissão de corte de árvores. Use-o para aprendê-la.
 
 [OBJ9012]
-Name=Pocion de Olvido (Tala)
+Name=Poción de Olvido (Tala)
 GrhIndex=28748
 ObjType=11
 ProfesionId=17
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Tala.
+Texto=Bebé esta poción para olvidar la profesión de Tala.
+en_Name=Potion of Forgetting (Woodcutting)
+en_Texto=Drink this potion to forget the woodcutting profession.
+fr_Name=Potion d'Oubli (Exploitation forestière)
+fr_Texto=Buvez cette potion pour oublier la profession d'exploitation forestière.
+it_Name=Pozione dell'Oblio (Taglio della legna)
+it_Texto=Bevi questa pozione per dimenticare la professione di taglio della legna.
+pt_Name=Poção do Esquecimento (Corte de árvores)
+pt_Texto=Beba esta poção para esquecer a profissão de corte de árvores.
 
 [OBJ9006]
-Name=Manual de Mineria
+Name=Manual de Minería
 GrhIndex=49210
 ObjType=1
 ProfesionId=19
 Valor=5000
 Crucial=1
-Texto=Un manual que ensena los secretos de la profesion de Mineria.
+Texto=Un manual que enseña los secretos de la profesión de Minería. Usalo para aprenderla.
+en_Name=Mining Manual
+en_Texto=A manual that teaches the secrets of the mining profession. Use it to learn it.
+fr_Name=Manuel d'Extraction minière
+fr_Texto=Un manuel qui enseigne les secrets de la profession d'extraction minière. Utilisez-le pour l'apprendre.
+it_Name=Manuale di Estrazione mineraria
+it_Texto=Un manuale che insegna i segreti della professione di estrazione mineraria. Usalo per impararla.
+pt_Name=Manual de Mineração
+pt_Texto=Um manual que ensina os segredos da profissão de mineração. Use-o para aprendê-la.
 
 [OBJ9013]
-Name=Pocion de Olvido (Mineria)
+Name=Poción de Olvido (Minería)
 GrhIndex=28748
 ObjType=11
 ProfesionId=19
 Valor=10000
 Crucial=1
-Texto=Bebe esta pocion para olvidar la profesion de Mineria.
+Texto=Bebé esta poción para olvidar la profesión de Minería.
+en_Name=Potion of Forgetting (Mining)
+en_Texto=Drink this potion to forget the mining profession.
+fr_Name=Potion d'Oubli (Extraction minière)
+fr_Texto=Buvez cette potion pour oublier la profession d'extraction minière.
+it_Name=Pozione dell'Oblio (Estrazione mineraria)
+it_Texto=Bevi questa pozione per dimenticare la professione di estrazione mineraria.
+pt_Name=Poção do Esquecimento (Mineração)
+pt_Texto=Beba esta poção para esquecer a profissão de mineração.
 
 [OBJ129] 'AUTO desde sp_localindex.dat (audit_visual_refs --create-stubs)
 Name=Yacimiento de Blodium
@@ -65169,18 +65288,18 @@ NoseCae=1
 
 [OBJ478] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Galeón Premium
-Texto=Requiere nivel 25. Exclusivo de Piratas.
+Texto=Requiere nivel 25.
 GrhIndex=4547
 ObjType=31
 Valor=0
 en_Name=Galleon Premium
-en_Texto=Requires level 25. Exclusive to Pirates.
-fr_Name=Galeon Premium
-fr_Texto=Nécessite niveau 25. Exclusif aux Pirates.
-it_Name=Galeon Premium
-it_Texto=Richiede livello 25. Esclusivo dei Pirati.
-pt_Name=Galeon Premium
-pt_Texto=Requer nível 25. Exclusivo de Piratas.
+en_Texto=Requires level 25.
+fr_Name=Galion Premium
+fr_Texto=Nécessite niveau 25.
+it_Name=Galeone Premium
+it_Texto=Richiede livello 25.
+pt_Name=Galeão Premium
+pt_Texto=Requer nível 25.
 Intirable=1
 MinSkill=0
 MinELV=25
