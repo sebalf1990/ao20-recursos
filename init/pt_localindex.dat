@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9019
+NUMLOCALEMSG=9025
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9236
@@ -2274,6 +2274,12 @@ Msg9016=Você não pode denunciar a si mesmo.
 Msg9017=Você atingiu o limite de ¬1 denúncias por hora. Tente mais tarde.
 Msg9018=Você já denunciou ¬1 há menos de uma hora.
 Msg9019=As denúncias estão saturadas no momento. Tente mais tarde.
+Msg9020=You are too tired to keep working, put away your tool for 5 seconds and then continue.
+Msg9021=You are still tired, wait ¬1 seconds without your tool.
+Msg9022=You are too tired to keep smelting, rest for ¬1 seconds and then continue.
+Msg9023=You have rested, you can work again.
+Msg9024=You need to be level ¬1 to cast this spell.
+Msg9025=This ability is not available.
 
 [QUEST1]
 Nombre=Descanso final

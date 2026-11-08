@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9019
+NUMLOCALEMSG=9025
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9236
@@ -2274,6 +2274,12 @@ Msg9016=Non puoi segnalare te stesso.
 Msg9017=Hai raggiunto il limite di ¬1 segnalazioni all'ora. Riprova più tardi.
 Msg9018=Hai già segnalato ¬1 meno di un'ora fa.
 Msg9019=Le segnalazioni sono sature al momento. Riprova più tardi.
+Msg9020=You are too tired to keep working, put away your tool for 5 seconds and then continue.
+Msg9021=You are still tired, wait ¬1 seconds without your tool.
+Msg9022=You are too tired to keep smelting, rest for ¬1 seconds and then continue.
+Msg9023=You have rested, you can work again.
+Msg9024=You need to be level ¬1 to cast this spell.
+Msg9025=This ability is not available.
 
 [QUEST1]
 Nombre=Riposo finale
