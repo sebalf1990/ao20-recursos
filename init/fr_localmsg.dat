@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=9019
+NumLocaleFR_Msg=9025
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2241,3 +2241,9 @@ Msg9016=Vous ne pouvez pas vous signaler vous-même.
 Msg9017=Vous avez atteint la limite de ¬1 signalements par heure. Réessayez plus tard.
 Msg9018=Vous avez déjà signalé ¬1 il y a moins d'une heure.
 Msg9019=Les signalements sont saturés pour le moment. Réessayez plus tard.
+Msg9020=You are too tired to keep working, put away your tool for 5 seconds and then continue.
+Msg9021=You are still tired, wait ¬1 seconds without your tool.
+Msg9022=You are too tired to keep smelting, rest for ¬1 seconds and then continue.
+Msg9023=You have rested, you can work again.
+Msg9024=You need to be level ¬1 to cast this spell.
+Msg9025=This ability is not available.
