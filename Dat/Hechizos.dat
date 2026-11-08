@@ -387,6 +387,9 @@ Target=1
 WorkOnDead=1
 TargetEffectType=1
 StaPercentRequired=60
+MinLevel=17
+Cooldown=20
+FixedCooldown=1
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
@@ -825,6 +828,7 @@ Envenena=3
 IconoIndex=35692
 Target=3
 NoWiki=1
+MinLevel=24
 
 
 [HECHIZO43]
@@ -2431,6 +2435,9 @@ RequiredHP=200
 StaRequerido=400
 Target=1
 Autolanzar=1
+MinLevel=24
+Cooldown=20
+FixedCooldown=1
 
 [HECHIZO238]'Libre
 
