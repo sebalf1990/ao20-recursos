@@ -19152,7 +19152,7 @@ Name=Saw
 texto=Carpentry tool
 GrhIndex=52000
 ObjType=18
-Valor=12000
+Valor=840
 LingH=14
 SkHerreria=12
 
@@ -20160,7 +20160,7 @@ Texto=Musical instrument.
 Name=Gold Miner Pickaxe
 GrhIndex=44469
 ObjType=18
-Valor=6000
+Valor=1200
 LingH=20
 SkHerreria=18
 Texto=Necessary tool for mining in gold deposits
@@ -23986,7 +23986,7 @@ Name=Cooking pot
 texto=Tool needed to create Alchemy potions
 GrhIndex=49016
 ObjType=18
-Valor=10000
+Valor=600
 LingH=10
 SkHerreria=12
 

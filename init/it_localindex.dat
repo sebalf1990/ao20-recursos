@@ -19050,7 +19050,7 @@ Name=Sega
 texto=Strumento di carpenteria
 GrhIndex=52000
 ObjType=18
-Valor=12000
+Valor=840
 LingH=14
 SkHerreria=12
 
@@ -20059,7 +20059,7 @@ Name=Picket minerario dell'oro
 texto=Strumento necessario per minare i depositi d'oro
 GrhIndex=44469
 ObjType=18
-Valor=6000
+Valor=1200
 LingH=20
 SkHerreria=18
 
@@ -23884,7 +23884,7 @@ Name=ALCHEMY POT
 texto=Strumento necessario per creare pozioni di alchimia
 GrhIndex=49016
 ObjType=18
-Valor=10000
+Valor=600
 LingH=10
 SkHerreria=12
 
