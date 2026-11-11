@@ -1,5 +1,5 @@
 [INIT]
-NumArmas=57
+NumArmas=56
 
 [Arma1]
 Index=3980 ' Bala de piedra
@@ -151,23 +151,20 @@ Index=1820
 [Arma50] 'Hoja de Jade
 Index=1821
 
-[Arma51] 'Sable Maestro
-Index=398
-
-[Arma52] 'Aurora
+[Arma51] 'Aurora
 Index=133
 
-[Arma53] 'Nudillo de Mithril
+[Arma52] 'Nudillo de Mithril
 Index=1825
 
-[Arma54] 'Hoja Ígnea
+[Arma53] 'Hoja Ígnea
 Index=1822
 
-[Arma55] 'Falcata
+[Arma54] 'Falcata
 Index=400
 
-[Arma56] 'Espada del Abismo
+[Arma55] 'Espada del Abismo
 Index=137
 
-[Arma57] 'Espada Zafiro
+[Arma56] 'Espada Zafiro
 Index=131
