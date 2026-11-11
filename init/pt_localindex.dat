@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9025
+NUMLOCALEMSG=9028
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9236
@@ -1010,8 +1010,8 @@ Msg1021=Venha para a costa para pescar.
 Msg1022=Para minerar ouro você precisa de uma picareta de minerador dourada.
 Msg1023=Você foi visível de novo!
 Msg1024=Você se camuflou como um barco fantasma!
-Msg1025=Apenas Piratas e pescadores podem usar a gale!
-Msg1026=Somente os piratas podem usar o Galleon !!
+Msg1025=Você ainda não tem o nível para usar a galera.
+Msg1026=Você ainda não tem o nível para usar o galeão.
 Msg1027=Você perde o efeito da imitação.
 Msg1028=Você não pode roubar objetivos imobilizados.
 Msg1029=Você não pode roubar usuários em consulta!
@@ -2254,32 +2254,35 @@ Msg2290=Comércio finalizado com sucesso.
 Msg2291=Você não pode atacar um rival protegido pelo seu clã.
 Msg2292=Você não pode consumir mais cartas desse tipo.
 Msg2293=Seus animais de estimação foram guardados.
-Msg9000=Voce nao aprendeu esta profissao.
-Msg9001=Voce aprendeu a profissao ?1.
-Msg9002=Voce esqueceu a profissao ?1.
-Msg9003=Voce ja conhece 2 profissoes. Esqueca uma antes de aprender outra.
-Msg9004=Voce atingiu o limite de esquecimentos deste personagem. Nao pode mais esquecer nem aprender outra profissao.
-Msg9005=Voce nao pode aprender mais profissoes: ja usou todos os esquecimentos permitidos.
-Msg9006=Voce ja conhece esta profissao.
-Msg9007=Voce nao pode usar este item sem aprender a profissao requerida.
-Msg9008=Voce nao pode atribuir pontos a uma profissao que nao aprendeu.
-Msg9009=Este mestre nao compra itens.
-Msg9010=A classe Trabalhador nao esta disponivel com profissoes aprendiveis ativas.
+Msg9000=Você precisa da profissão ¬1. Compre o manual com um mestre de profissões (estão nas cidades com esse ofício).
+Msg9001=Você aprendeu a profissão ¬1.
+Msg9002=Você esqueceu a profissão ¬1.
+Msg9003=Você já conhece 2 profissões. Esqueça uma antes de aprender outra.
+Msg9004=Você atingiu o limite de esquecimentos deste personagem. Não pode mais esquecer nem aprender outra profissão.
+Msg9005=Você não pode aprender mais profissões: já usou todos os esquecimentos permitidos.
+Msg9006=Você já conhece esta profissão.
+Msg9007=Você precisa da profissão ¬1 para usar este item. Compre o manual com um mestre de profissões (estão nas cidades com esse ofício).
+Msg9008=Você não pode atribuir pontos a uma profissão que não aprendeu.
+Msg9009=Este mestre não compra itens.
+Msg9010=A classe Trabalhador não está disponível com profissões aprendíveis ativas.
 Msg9011=Causaste ¬1 de ¬2 a criatura.
 Msg9012=Você recebeu ¬1 de dano de ¬2.
-Msg9013=Voce nao pode mais atribuir pontos a essa habilidade: ela nao tem mais uso.
+Msg9013=Você não pode atribuir pontos a essa habilidade: ela não é mais usada. Os navios exigem apenas nível e os grupos têm regras fixas.
 Msg9014=Para fundar um clã, você precisa de ¬1 moedas de ouro.
 Msg9015=Esta missão não está disponível para sua facção.
 Msg9016=Você não pode denunciar a si mesmo.
 Msg9017=Você atingiu o limite de ¬1 denúncias por hora. Tente mais tarde.
 Msg9018=Você já denunciou ¬1 há menos de uma hora.
 Msg9019=As denúncias estão saturadas no momento. Tente mais tarde.
-Msg9020=You are too tired to keep working, put away your tool for 5 seconds and then continue.
-Msg9021=You are still tired, wait ¬1 seconds without your tool.
-Msg9022=You are too tired to keep smelting, rest for ¬1 seconds and then continue.
-Msg9023=You have rested, you can work again.
-Msg9024=You need to be level ¬1 to cast this spell.
-Msg9025=This ability is not available.
+Msg9020=Você está cansado demais para continuar trabalhando, largue sua ferramenta por ¬1 segundos e depois continue.
+Msg9021=Você ainda está cansado, espere ¬1 segundos sem sua ferramenta.
+Msg9022=Você está cansado demais para continuar fundindo, descanse por ¬1 segundos e depois continue.
+Msg9023=Você descansou, pode voltar a trabalhar.
+Msg9024=Você precisa ser nível ¬1 para lançar este feitiço.
+Msg9025=Esta habilidade não está disponível.
+Msg9026=Você não conhece a profissão ¬1.
+Msg9027=O grupo já está completo (máximo ¬1).
+Msg9028=As profissões aprendíveis não estão ativas no momento.
 
 [QUEST1]
 Nombre=Descanso final
@@ -14363,6 +14366,7 @@ ManaRequerido=550
 StaRequerido=300
 IconoIndex=35725
 StaPercentRequired=60
+Cooldown=20
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
@@ -16343,6 +16347,7 @@ PropioMsg=Corres más rápido.
 IconoIndex=35756
 MinSkill=0
 StaRequerido=400
+Cooldown=20
 
 [HECHIZO239]
 Nombre=Ataque de veneno inferior (NPCS)
@@ -19050,7 +19055,7 @@ Name=Serra
 texto=Ferramenta de carpintaria
 GrhIndex=52000
 ObjType=18
-Valor=12000
+Valor=840
 LingH=14
 SkHerreria=12
 
@@ -20059,7 +20064,7 @@ Name=Piquete de mineração de ouro
 texto=Ferramenta necessária para minar em depósitos de ouro
 GrhIndex=44469
 ObjType=18
-Valor=6000
+Valor=1200
 LingH=20
 SkHerreria=18
 
@@ -20798,8 +20803,8 @@ Madera=20000
 Valor=240000
 
 [OBJ475]
-Name=Galley
-texto=Requer nível 33. Exclusiva de Piratas e pescadores de ofício. Compra-se nos portos ou fabrica-se com Carpintaria 93.
+Name=Galera
+texto=Requer nível 33. Compra-se nos portos ou fabrica-se com Carpintaria 93.
 GrhIndex=11568
 ObjType=31
 Madera=5000
@@ -20811,7 +20816,7 @@ MinDef=5
 MaxDef=10
 
 [OBJ476]
-Name=Galeón
+Name=Galeão
 GrhIndex=11592
 ObjType=31
 maderaelfica=30000
@@ -20820,7 +20825,7 @@ MinHIT=20
 MaxHIT=25
 MINDEF=15
 MAXDEF=20
-Texto=Requiere nivel 41. Exclusivo de Piratas. Se compra en los muelles o se fabrica con Carpintería 100.
+Texto=Requer nível 41. Compra-se nos portos ou fabrica-se com Carpintaria 100.
 
 [OBJ477]
 Name=Traje de Novio
@@ -20844,8 +20849,8 @@ Valor=340
 Texto=Traje de Novio
 
 [OBJ478]
-Name=Galeon Premium
-Texto=Requer nível 25. Exclusivo de Piratas.
+Name=Galeão Premium
+Texto=Requer nível 25.
 GrhIndex=4547
 ObjType=31
 Valor=0
@@ -23884,7 +23889,7 @@ Name=Pote de alquimia
 texto=Ferramenta necessária para criar poções de alquimia
 GrhIndex=49016
 ObjType=18
-Valor=10000
+Valor=600
 LingH=10
 SkHerreria=12
 
@@ -53372,102 +53377,102 @@ CollectibleCardRarity=1
 ObjType=57
 
 [OBJ9000]
-Name=Manual de Carpinteria
+Name=Manual de Carpintaria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Carpinteria.
+Texto=Um manual que ensina os segredos da profissão de carpintaria. Use-o para aprendê-la.
 
 [OBJ9007]
-Name=Pocion de Olvido (Carpinteria)
+Name=Poção do Esquecimento (Carpintaria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Carpinteria.
+Texto=Beba esta poção para esquecer a profissão de carpintaria.
 
 [OBJ9001]
-Name=Manual de Herreria
+Name=Manual de Ferraria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Herreria.
+Texto=Um manual que ensina os segredos da profissão de ferraria. Use-o para aprendê-la.
 
 [OBJ9008]
-Name=Pocion de Olvido (Herreria)
+Name=Poção do Esquecimento (Ferraria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Herreria.
+Texto=Beba esta poção para esquecer a profissão de ferraria.
 
 [OBJ9002]
-Name=Manual de Sastreria
+Name=Manual de Alfaiataria
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Sastreria.
+Texto=Um manual que ensina os segredos da profissão de alfaiataria. Use-o para aprendê-la.
 
 [OBJ9009]
-Name=Pocion de Olvido (Sastreria)
+Name=Poção do Esquecimento (Alfaiataria)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Sastreria.
+Texto=Beba esta poção para esquecer a profissão de alfaiataria.
 
 [OBJ9003]
 Name=Manual de Alquimia
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Alquimia.
+Texto=Um manual que ensina os segredos da profissão de alquimia. Use-o para aprendê-la.
 
 [OBJ9010]
-Name=Pocion de Olvido (Alquimia)
+Name=Poção do Esquecimento (Alquimia)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Alquimia.
+Texto=Beba esta poção para esquecer a profissão de alquimia.
 
 [OBJ9004]
 Name=Manual de Pesca
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Pesca.
+Texto=Um manual que ensina os segredos da profissão de pesca. Use-o para aprendê-la.
 
 [OBJ9011]
-Name=Pocion de Olvido (Pesca)
+Name=Poção do Esquecimento (Pesca)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Pesca.
+Texto=Beba esta poção para esquecer a profissão de pesca.
 
 [OBJ9005]
-Name=Manual de Tala
+Name=Manual de Corte de árvores
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Tala.
+Texto=Um manual que ensina os segredos da profissão de corte de árvores. Use-o para aprendê-la.
 
 [OBJ9012]
-Name=Pocion de Olvido (Tala)
+Name=Poção do Esquecimento (Corte de árvores)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Tala.
+Texto=Beba esta poção para esquecer a profissão de corte de árvores.
 
 [OBJ9006]
-Name=Manual de Mineria
+Name=Manual de Mineração
 GrhIndex=49210
 ObjType=1
 Valor=5000
-Texto=Un manual que ensena los secretos de la profesion de Mineria.
+Texto=Um manual que ensina os segredos da profissão de mineração. Use-o para aprendê-la.
 
 [OBJ9013]
-Name=Pocion de Olvido (Mineria)
+Name=Poção do Esquecimento (Mineração)
 GrhIndex=28748
 ObjType=11
 Valor=10000
-Texto=Bebe esta pocion para olvidar la profesion de Mineria.
+Texto=Beba esta poção para esquecer a profissão de mineração.
 
 [OBJ5088]
 Name=Morgrim Nro. 1 Con Llave
@@ -63317,8 +63322,8 @@ Objtype=24
 Texto=Detectar el Mal
 
 [NPC9000]
-Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Mestre Carpinteiro e Lenhador <Carpintaria e Corte de árvores>
+Desc=Um mestre que ensina suas profissões em troca de ouro.
 Body=141
 Head=74
 Comercia=1
@@ -63329,8 +63334,8 @@ Obj2=9007-1000
 Obj3=9005-1000
 
 [NPC9001]
-Name=Maestro Herrero y Minero <Herreria y Mineria>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Mestre Ferreiro e Minerador <Ferraria e Mineração>
+Desc=Um mestre que ensina suas profissões em troca de ouro.
 Body=141
 Head=74
 Comercia=1
@@ -63352,8 +63357,8 @@ Obj1=9002-1000
 Obj2=9009-1000
 
 [NPC9003]
-Name=Maestro Alquimista y Sastre <Alquimia y Sastreria>
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Name=Mestre Alquimista e Alfaiate <Alquimia e Alfaiataria>
+Desc=Um mestre que ensina suas profissões em troca de ouro.
 Body=141
 Head=74
 Comercia=1
@@ -63364,8 +63369,8 @@ Obj2=9010-1000
 Obj3=9002-1000
 
 [NPC9004]
-Name=Maestro Pescador <Pesca>
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Name=Mestre Pescador <Pesca>
+Desc=Um mestre que ensina sua profissão em troca de ouro.
 Body=141
 Head=74
 Comercia=1

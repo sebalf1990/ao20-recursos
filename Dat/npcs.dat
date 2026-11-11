@@ -17428,10 +17428,10 @@ DropCount=1
 Drop1=408-600-1-1
 Nivel=20
 [NPC9000]
-Name=Maestro Carpintero y Lenador <Carpinteria y Tala>
-En_Name=Master Carpenter and Woodcutter <Carpinteria y Tala>
+Name=Maestro Carpintero y Leñador <Carpintería y Tala>
+En_Name=Master Carpenter and Woodcutter <Carpentry and Woodcutting>
 ShowName=1
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Desc=Un maestro que enseña sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -17450,12 +17450,19 @@ Obj3=9005-1000
 Obj4=9012-1000
 SoundOpen=700
 SoundClose=703
+fr_Name=Maître Menuisier et Bûcheron <Menuiserie et Exploitation forestière>
+it_Name=Maestro Carpentiere e Boscaiolo <Carpenteria e Taglio della legna>
+pt_Name=Mestre Carpinteiro e Lenhador <Carpintaria e Corte de árvores>
+en_desc=A master who teaches his professions in exchange for gold.
+fr_desc=Un maître qui enseigne ses professions contre de l'or.
+it_desc=Un maestro che insegna le sue professioni in cambio di oro.
+pt_desc=Um mestre que ensina suas profissões em troca de ouro.
 
 [NPC9001]
-Name=Maestro Herrero y Minero <Herreria y Mineria>
-En_Name=Master Blacksmith and Miner <Herreria y Mineria>
+Name=Maestro Herrero y Minero <Herrería y Minería>
+En_Name=Master Blacksmith and Miner <Smithing and Mining>
 ShowName=1
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Desc=Un maestro que enseña sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -17474,6 +17481,13 @@ Obj3=9006-1000
 Obj4=9013-1000
 SoundOpen=700
 SoundClose=703
+fr_Name=Maître Forgeron et Mineur <Forge et Extraction minière>
+it_Name=Maestro Fabbro e Minatore <Fabbro e Estrazione mineraria>
+pt_Name=Mestre Ferreiro e Minerador <Ferraria e Mineração>
+en_desc=A master who teaches his professions in exchange for gold.
+fr_desc=Un maître qui enseigne ses professions contre de l'or.
+it_desc=Un maestro che insegna le sue professioni in cambio di oro.
+pt_desc=Um mestre que ensina suas profissões em troca de ouro.
 
 [NPC9002] 'DEPRECADO plan 04.001: Sastreria agrupada en NPC9003
 Name=Maestro Sastre <Sastreria>
@@ -17498,10 +17512,10 @@ SoundOpen=700
 SoundClose=703
 
 [NPC9003]
-Name=Maestro Alquimista y Sastre <Alquimia y Sastreria>
-En_Name=Master Alchemist and Tailor <Alquimia y Sastreria>
+Name=Maestro Alquimista y Sastre <Alquimia y Sastrería>
+En_Name=Master Alchemist and Tailor <Alchemy and Tailoring>
 ShowName=1
-Desc=Un maestro que ensena sus profesiones a cambio de oro.
+Desc=Un maestro que enseña sus profesiones a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -17520,12 +17534,19 @@ Obj3=9002-1000
 Obj4=9009-1000
 SoundOpen=700
 SoundClose=703
+fr_Name=Maître Alchimiste et Tailleur <Alchimie et Couture>
+it_Name=Maestro Alchimista e Sarto <Alchimia e Sartoria>
+pt_Name=Mestre Alquimista e Alfaiate <Alquimia e Alfaiataria>
+en_desc=A master who teaches his professions in exchange for gold.
+fr_desc=Un maître qui enseigne ses professions contre de l'or.
+it_desc=Un maestro che insegna le sue professioni in cambio di oro.
+pt_desc=Um mestre que ensina suas profissões em troca de ouro.
 
 [NPC9004]
 Name=Maestro Pescador <Pesca>
-En_Name=Master Fisherman <Pesca>
+En_Name=Master Fisherman <Fishing>
 ShowName=1
-Desc=Un maestro que ensena su profesion a cambio de oro.
+Desc=Un maestro que enseña su profesión a cambio de oro.
 Head=74
 Body=141
 Heading=3
@@ -17542,6 +17563,13 @@ Obj1=9004-1000
 Obj2=9011-1000
 SoundOpen=700
 SoundClose=703
+fr_Name=Maître Pêcheur <Pêche>
+it_Name=Maestro Pescatore <Pesca>
+pt_Name=Mestre Pescador <Pesca>
+en_desc=A master who teaches his profession in exchange for gold.
+fr_desc=Un maître qui enseigne sa profession contre de l'or.
+it_desc=Un maestro che insegna la sua professione in cambio di oro.
+pt_desc=Um mestre que ensina sua profissão em troca de ouro.
 
 [NPC9005] 'DEPRECADO plan 04.001: Tala agrupada en NPC9000
 Name=Maestro Lenador <Tala>
