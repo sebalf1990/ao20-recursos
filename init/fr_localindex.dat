@@ -14366,6 +14366,7 @@ ManaRequerido=550
 StaRequerido=300
 IconoIndex=35725
 StaPercentRequired=60
+Cooldown=20
 
 [HECHIZO15]
 Nombre=Detectar Invisibilidad
@@ -16346,6 +16347,7 @@ PropioMsg=Corres más rápido.
 IconoIndex=35756
 MinSkill=0
 StaRequerido=400
+Cooldown=20
 
 [HECHIZO239]
 Nombre=Attaque de poison inférieure (PNJ)
