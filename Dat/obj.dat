@@ -6209,7 +6209,7 @@ Madera=20000
 Valor=240000
 subastable=0
 Texto=Requiere nivel 25. Se compra en los muelles o se fabrica con Carpintería 73.
-Crucial=0
+Crucial=1
 NFT=0
 en_texto=Requires level 25. Buy it at the docks or craft it with Carpentry 73.
 
@@ -6238,7 +6238,7 @@ MaxHit=10
 MinDef=5
 MaxDef=10
 subastable=1
-Crucial=0
+Crucial=1
 Texto=Requiere nivel 33. Se compra en los muelles o se fabrica con Carpintería 93.
 en_texto=Requires level 33. Buy it at the docks or craft it with Carpentry 93.
 
@@ -6260,7 +6260,7 @@ MAXDEF=20
 subastable=1
 Texto=Requiere nivel 41. Se compra en los muelles o se fabrica con Carpintería 100.
 Velocidad=1.2
-Crucial=0
+Crucial=1
 en_texto=Requires level 41. Buy it at the docks or craft it with Carpentry 100.
 IT_texto=Richiede livello 41. Si acquista nei porti o si fabbrica con Carpenteria 100.
 FR_texto=Nécessite niveau 41. S'achète dans les ports ou se fabrique avec Menuiserie 100.
