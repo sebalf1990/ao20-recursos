@@ -376,6 +376,8 @@ WarriorLifeStealOnHitMultiplier=0.3
 ' SIN lector en nuestro server al 2026-09-17 (dato inerte hasta portar la funcion del oficial):
 GuildCallCooldown=3000
 MinFastTravelRuneTime=45
+' Verificado 2026-11-11: este valor NO se lee de Balance.dat. modHechizos.AdjustNpcStatWithCasterLevel lo pide a SvrConfig (Configuracion.ini),
+' donde la clave no existe, y cae al 3 fijo del codigo. Cambiar este numero no hace nada hasta que exista un lector.
 ElvenWoodMagicDamageMultiplier=3
 
 [STUN]

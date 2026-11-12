@@ -1,7 +1,7 @@
 '+++++++++++++++>ARGENTUM20<++++++++++++++
 
 [INIT]
-NumOBJs=9236
+NumOBJs=9237
 
 '+++++++++++++++> Aclaraciones <++++++++++++++
 
@@ -84750,3 +84750,13 @@ CP3=TRABAJADOR
 CP4=PIRATA
 Objtype=24
 Texto=Detectar el Mal
+
+[OBJ9237] 'TEST (plan 2026-11-11 E3) - Amuleto de Poder Magico: sonda de WriteUpdateDM (el indicador de daño magico debe sumar el amuleto)
+Name=Amuleto de Poder Magico (TEST)
+en_Name=Test Magic Power Amulet
+GrhIndex=969
+ObjType=21
+Valor=0
+MinELV=1
+MagicDamageBonus=25
+Texto=Amuleto de prueba: suma 25% al daño magico.
