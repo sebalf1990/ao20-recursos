@@ -1,9 +1,9 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9028
+NUMLOCALEMSG=9094
 NUMMAPAS=750
 NUMNPCS=9063
-NUMOBJS=9236
+NUMOBJS=9237
 NUMQUESTS=905
 NUMSUGERENCIAS=6
 
@@ -2260,6 +2260,72 @@ Msg9025=This ability is not available.
 Msg9026=You do not know the ¬1 profession.
 Msg9027=The party is already full (maximum ¬1).
 Msg9028=Learnable professions are not enabled at the moment.
+Msg9029=The enchantment on your weapon has faded.
+Msg9030=The enchantment on your weapon has run out.
+Msg9031=The enchantment on your arrows has faded.
+Msg9032=The enchantment on your arrows has run out.
+Msg9033=You have no weapon equipped to enchant.
+Msg9034=That weapon cannot be enchanted.
+Msg9035=You cannot enchant your weapon while wearing an orb.
+Msg9036=Your weapon is already coated with poison.
+Msg9037=The weapon does not accept this type of enchantment.
+Msg9038=Equip arrows to enchant them.
+Msg9039=Only arrows can be enchanted.
+Msg9040=Those arrows already carry their own poison.
+Msg9041=Those arrows are already coated with poison.
+Msg9042=Those arrows do not accept this type of enchantment.
+Msg9043=You set the target ablaze.
+Msg9044=You slowed the target.
+Msg9045=You corroded the target's defense.
+Msg9046=You made the target bleed.
+Msg9047=You set the target ablaze (stacking).
+Msg9048=The creature has poisoned you!
+Msg9049=You resisted the poison.
+Msg9050=You poisoned ¬1 with your arrows.
+Msg9051=The poison on your arrows has faded.
+Msg9052=The poison on your weapon has faded.
+Msg9053=The poison on your weapon has run out.
+Msg9054=The poison on your arrows has run out.
+Msg9055=The poison on the weapon was lost when you unequipped it.
+Msg9056=The enchantment on the weapon was lost when you unequipped it.
+Msg9057=You no longer have poisoned arrows equipped.
+Msg9058=The enchantment on your arrows was lost when you unequipped them.
+Msg9059=The orb cancels the enchantment on your weapon.
+Msg9060=The orb cancels the poison on your weapon.
+Msg9061=The orb cancels the poison on your arrows.
+Msg9062=Your weapon is already enchanted.
+Msg9063=You permanently enchanted your weapon.
+Msg9064=You enchanted your weapon (¬1s).
+Msg9065=Your arrows are already enchanted.
+Msg9066=You permanently enchanted your arrows.
+Msg9067=You enchanted your arrows (¬1s).
+Msg9068=The target's weapon is already enchanted.
+Msg9069=Your weapon was enchanted (¬1s).
+Msg9070=You enchanted ¬1's weapon.
+Msg9071=The target's arrows are already enchanted.
+Msg9072=You ran out of poisoned arrows (the stack is used up).
+Msg9073=You cannot apply poison while wearing an orb.
+Msg9074=The poison vial is not configured correctly.
+Msg9075=You have no weapon equipped to poison.
+Msg9076=Equip arrows to poison your bow.
+Msg9077=This arrow is already poisoned.
+Msg9078=Your arrows are already coated with poison.
+Msg9079=You coated your arrows with ¬1 (¬2 charges).
+Msg9080=Your weapon cannot be poisoned.
+Msg9081=Your weapon does not accept this poison family.
+Msg9082=You coated your weapon with poison.
+Msg9083=The target is wearing an orb: poison cannot be applied.
+Msg9084=The poison spell is not configured correctly.
+Msg9085=The target has no weapon equipped.
+Msg9086=The target needs arrows equipped to poison their bow.
+Msg9087=The target's arrows are already poisoned.
+Msg9088=You poisoned ¬1's arrows with ¬2.
+Msg9089=Your arrows were poisoned with ¬1 (¬2 charges).
+Msg9090=The target's weapon cannot be poisoned.
+Msg9091=The target's weapon does not accept this poison family.
+Msg9092=The target's weapon is already poisoned.
+Msg9093=You coated the weapon with poison.
+Msg9094=¬1 coated your weapon with poison.
 
 [QUEST1]
 Nombre=Final Rest
@@ -14674,7 +14740,7 @@ IconoIndex=35691
 
 [HECHIZO42]
 Nombre=Partículas Tóxicas
-Desc=Causes 55 to 56 hit points and poisons the target.
+Desc=Causes 63 to 75 base hit points and poisons the target.
 PalabrasMagicas=VÄX'N ÄCi'
 HechizeroMsg=You casted Toxic Particles on
 TargetMsg=casted Toxic Particles on you.
@@ -14829,7 +14895,7 @@ StaRequerido=120
 
 [HECHIZO55]
 Nombre=Lamento de la Banshee
-Desc=Causes 150 to 180 hit to the target ignoring magic resistance.
+Desc=Causes 80 to 100 base hit points to the target ignoring magic resistance.
 PalabrasMagicas=V R NI MÈS
 HechizeroMsg=You casted Banshee
 TargetMsg=casted Banshee's Lament on you
@@ -15211,7 +15277,7 @@ StaRequerido=0
 
 [HECHIZO100]
 Nombre=Maldición de Kraken
-Desc=Causes 90 to 100 hit points to the target.
+Desc=Causes 135 to 175 base hit points to the target.
 PalabrasMagicas=IRAC'THER
 HechizeroMsg=You casted Kraken
 TargetMsg=casted Kraken's Curse on you.
@@ -15327,7 +15393,7 @@ IconoIndex=35731
 
 [HECHIZO113]
 Nombre=Rafaga de Espinas
-Desc=Causes 138 to 144 hit points to the target.
+Desc=Causes 100 to 144 base hit points to the target.
 PalabrasMagicas=Volatio'Nih
 HechizeroMsg=You casted Flurry of Thorns on
 TargetMsg=casted Flurry of Thorns on you.
@@ -15559,7 +15625,7 @@ StaRequerido=0
 
 [HECHIZO141]
 Nombre=Vacío Abisal
-Desc=Causes 115 to 120 hit points to the target
+Desc=Causes 100 to 150 base hit points to the target
 PalabrasMagicas=SiGV'gL'
 HechizeroMsg=You have casted Abyssal Gap on
 TargetMsg=casted Abyssal Gap on you
@@ -16082,7 +16148,7 @@ StaRequerido=300
 
 [HECHIZO207]
 Nombre=Apocalipsis (NPCS)
-Desc=Causes 90 to 97 hit points to the target.
+Desc=Causes 150 to 180 base hit points to the target.
 PalabrasMagicas=Rahma Nañarak O'al
 HechizeroMsg=You casted Apocalypse on
 TargetMsg=casted Apocalypse on you
@@ -16095,7 +16161,7 @@ StaRequerido=175
 
 [HECHIZO208]
 Nombre=Partículas Tóxicas (NPCS)
-Desc=Causes 47 to 55 hit points to the target and poisons a three tile area.
+Desc=Causes 100 to 120 base hit points to the target and poisons a three tile area.
 PalabrasMagicas=VÄX'N ÄCi'
 HechizeroMsg=Casted Toxic Particles on
 TargetMsg=casted Toxic Particles on you.
@@ -16108,7 +16174,7 @@ IconoIndex=35692
 
 [HECHIZO209]
 Nombre=Flecha Scramer (NPCS)
-Desc=Causes 35 to 50 hit points to the target.
+Desc=Causes 10 to 20 base hit points to the target.
 PalabrasMagicas=SUN VAP
 HechizeroMsg=You casted Scramer Arrow on
 TargetMsg=You have been shot by Scramer Arrow
@@ -16121,7 +16187,7 @@ IconoIndex=35727
 
 [HECHIZO210]
 Nombre=Colmillo Venenoso (NPCS)
-Desc=Causes 20 to 35 hit points and poisons the target.
+Desc=Causes 55 to 65 base hit points and poisons the target.
 PalabrasMagicas=VÄX'N ÄCi'
 HechizeroMsg=Casted a Poisonous Fang on
 TargetMsg=casted Poisonous Fang on you.
@@ -16134,7 +16200,7 @@ IconoIndex=35692
 
 [HECHIZO211]
 Nombre=Colmillo Filoso (NPCS)
-Desc=Causes 40 to 60 hit points to the target.
+Desc=Causes 35 to 45 base hit points to the target.
 PalabrasMagicas=Keskin Dis
 HechizeroMsg=You casted Sharp Fang on
 TargetMsg=has casted Sharp Fang on you.
@@ -16168,7 +16234,7 @@ StaRequerido=250
 
 [HECHIZO214]
 Nombre=Apocalipsis (Área)
-Desc=Causes 90 to 97 hit points to the target.
+Desc=Causes 150 to 180 base hit points to the target.
 PalabrasMagicas=Rahma Nañarak O'al
 HechizeroMsg=You casted Apocalypse on
 TargetMsg=has casted Apocalypse on you.
@@ -16181,7 +16247,7 @@ StaRequerido=175
 
 [HECHIZO215]
 Nombre=Aliento de Dragón (Área)
-Desc=Causes 90 to 95 hit points to the target.
+Desc=Causes 170 to 200 base hit points to the target.
 PalabrasMagicas=ÖÄR NÏÄ RÖ
 HechizeroMsg=You casted Dragon
 TargetMsg=has casted Dragon's Breath on you.
@@ -16387,7 +16453,7 @@ IconoIndex=32447
 
 [HECHIZO236]
 Nombre=Implosión (NPCs)
-Desc=Causes 120 to 130 hit points to the target.
+Desc=Causes 70 to 100 base hit points to the target.
 PalabrasMagicas=Rahil Mortem
 HechizeroMsg=You casted Implosion on
 TargetMsg=has casted Implosion on you.
@@ -16694,7 +16760,7 @@ Cooldown=5
 
 [HECHIZO267]
 Nombre=Ataque de Veneno (NPCS)
-Desc=Causes 35 to 50 hit points to the target.
+Desc=Causes 10 to 20 base hit points to the target.
 PalabrasMagicas=TOX ZAP
 HechizeroMsg=You have thrown poison on
 TargetMsg=shot a poison on you.
@@ -63422,6 +63488,13 @@ GrhIndex=609
 Valor=50
 Objtype=24
 Texto=Detectar el Mal
+
+[OBJ9237]
+Name=Test Magic Power Amulet
+GrhIndex=969
+ObjType=21
+Valor=0
+Texto=Amuleto de prueba: suma 25% al daño magico.
 
 [NPC9000]
 Name=Master Carpenter and Woodcutter <Carpentry and Woodcutting>
