@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9072
+NUMLOCALEMSG=9094
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9237
@@ -2304,6 +2304,28 @@ Msg9069=Your weapon was enchanted (¬1s).
 Msg9070=You enchanted ¬1's weapon.
 Msg9071=The target's arrows are already enchanted.
 Msg9072=You ran out of poisoned arrows (the stack is used up).
+Msg9073=You cannot apply poison while wearing an orb.
+Msg9074=The poison vial is not configured correctly.
+Msg9075=You have no weapon equipped to poison.
+Msg9076=Equip arrows to poison your bow.
+Msg9077=This arrow is already poisoned.
+Msg9078=Your arrows are already coated with poison.
+Msg9079=You coated your arrows with ¬1 (¬2 charges).
+Msg9080=Your weapon cannot be poisoned.
+Msg9081=Your weapon does not accept this poison family.
+Msg9082=You coated your weapon with poison.
+Msg9083=The target is wearing an orb: poison cannot be applied.
+Msg9084=The poison spell is not configured correctly.
+Msg9085=The target has no weapon equipped.
+Msg9086=The target needs arrows equipped to poison their bow.
+Msg9087=The target's arrows are already poisoned.
+Msg9088=You poisoned ¬1's arrows with ¬2.
+Msg9089=Your arrows were poisoned with ¬1 (¬2 charges).
+Msg9090=The target's weapon cannot be poisoned.
+Msg9091=The target's weapon does not accept this poison family.
+Msg9092=The target's weapon is already poisoned.
+Msg9093=You coated the weapon with poison.
+Msg9094=¬1 coated your weapon with poison.
 
 [QUEST1]
 Nombre=Final Rest

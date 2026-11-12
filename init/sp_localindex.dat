@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9072
+NUMLOCALEMSG=9094
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9237
@@ -64869,6 +64869,28 @@ Msg9069=Tu arma fue encantada (¬1s).
 Msg9070=Encantaste el arma de ¬1.
 Msg9071=Las flechas del objetivo ya están encantadas.
 Msg9072=Te quedaste sin flechas envenenadas (el stack se agotó).
+Msg9073=No podés untar veneno con un orbe equipado.
+Msg9074=El vial de veneno no está configurado correctamente.
+Msg9075=No tenés un arma equipada para envenenar.
+Msg9076=Equipá flechas para envenenar tu arco.
+Msg9077=Esta flecha ya está envenenada.
+Msg9078=Tus flechas ya están untadas con veneno.
+Msg9079=Untaste tus flechas con ¬1 (¬2 cargas).
+Msg9080=Tu arma no es envenenable.
+Msg9081=Tu arma no acepta esta familia de veneno.
+Msg9082=Has untado tu arma con veneno.
+Msg9083=El objetivo tiene un orbe equipado: no se puede untar veneno.
+Msg9084=El hechizo de veneno no está configurado correctamente.
+Msg9085=El objetivo no tiene arma equipada.
+Msg9086=El objetivo necesita flechas equipadas para envenenar su arco.
+Msg9087=Las flechas del objetivo ya están envenenadas.
+Msg9088=Envenenaste las flechas de ¬1 con ¬2.
+Msg9089=Tus flechas han sido envenenadas con ¬1 (¬2 cargas).
+Msg9090=El arma del objetivo no se puede envenenar.
+Msg9091=El arma del objetivo no acepta esta familia de veneno.
+Msg9092=El arma del objetivo ya está envenenada.
+Msg9093=Has untado el arma con veneno.
+Msg9094=¬1 untó tu arma con veneno.
 
 [SP_SUGERENCIAS]
 Sugerencia1=¿Sabías quepodes meditar simplemente tocandotu barra de maná. ¡Probalo!

@@ -1,5 +1,5 @@
 [INIT]
-NumLocaleFR_Msg=9072
+NumLocaleFR_Msg=9094
 
 [FR_MSG]
 Msg1=[¬1] a été expulsé du clan car il modifiait son alignement.
@@ -2294,3 +2294,25 @@ Msg9069=Votre arme a été enchantée (¬1s).
 Msg9070=Vous avez enchanté l'arme de ¬1.
 Msg9071=Les flèches de la cible sont déjà enchantées.
 Msg9072=Vous n'avez plus de flèches empoisonnées (la pile est épuisée).
+Msg9073=Vous ne pouvez pas enduire de poison avec un orbe équipé.
+Msg9074=La fiole de poison n'est pas configurée correctement.
+Msg9075=Vous n'avez aucune arme équipée à empoisonner.
+Msg9076=Équipez des flèches pour empoisonner votre arc.
+Msg9077=Cette flèche est déjà empoisonnée.
+Msg9078=Vos flèches sont déjà enduites de poison.
+Msg9079=Vous avez enduit vos flèches de ¬1 (¬2 charges).
+Msg9080=Votre arme ne peut pas être empoisonnée.
+Msg9081=Votre arme n'accepte pas cette famille de poison.
+Msg9082=Vous avez enduit votre arme de poison.
+Msg9083=La cible porte un orbe : impossible d'appliquer du poison.
+Msg9084=Le sort de poison n'est pas configuré correctement.
+Msg9085=La cible n'a aucune arme équipée.
+Msg9086=La cible a besoin de flèches équipées pour empoisonner son arc.
+Msg9087=Les flèches de la cible sont déjà empoisonnées.
+Msg9088=Vous avez empoisonné les flèches de ¬1 avec ¬2.
+Msg9089=Vos flèches ont été empoisonnées avec ¬1 (¬2 charges).
+Msg9090=L'arme de la cible ne peut pas être empoisonnée.
+Msg9091=L'arme de la cible n'accepte pas cette famille de poison.
+Msg9092=L'arme de la cible est déjà empoisonnée.
+Msg9093=Vous avez enduit l'arme de poison.
+Msg9094=¬1 a enduit votre arme de poison.

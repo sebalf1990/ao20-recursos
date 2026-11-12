@@ -1,6 +1,6 @@
 [INIT]
 NUMEROHECHIZO=425
-NUMLOCALEMSG=9072
+NUMLOCALEMSG=9094
 NUMMAPAS=750
 NUMNPCS=9063
 NUMOBJS=9237
@@ -2327,6 +2327,28 @@ Msg9069=La tua arma è stata incantata (¬1s).
 Msg9070=Hai incantato l'arma di ¬1.
 Msg9071=Le frecce del bersaglio sono già incantate.
 Msg9072=Hai finito le frecce avvelenate (la pila è esaurita).
+Msg9073=Non puoi cospargere veleno con un'orbe equipaggiata.
+Msg9074=La fiala di veleno non è configurata correttamente.
+Msg9075=Non hai un'arma equipaggiata da avvelenare.
+Msg9076=Equipaggia delle frecce per avvelenare il tuo arco.
+Msg9077=Questa freccia è già avvelenata.
+Msg9078=Le tue frecce sono già cosparse di veleno.
+Msg9079=Hai cosparso le tue frecce con ¬1 (¬2 cariche).
+Msg9080=La tua arma non può essere avvelenata.
+Msg9081=La tua arma non accetta questa famiglia di veleno.
+Msg9082=Hai cosparso la tua arma di veleno.
+Msg9083=Il bersaglio ha un'orbe equipaggiata: non si può cospargere veleno.
+Msg9084=L'incantesimo di veleno non è configurato correttamente.
+Msg9085=Il bersaglio non ha un'arma equipaggiata.
+Msg9086=Il bersaglio ha bisogno di frecce equipaggiate per avvelenare il suo arco.
+Msg9087=Le frecce del bersaglio sono già avvelenate.
+Msg9088=Hai avvelenato le frecce di ¬1 con ¬2.
+Msg9089=Le tue frecce sono state avvelenate con ¬1 (¬2 cariche).
+Msg9090=L'arma del bersaglio non può essere avvelenata.
+Msg9091=L'arma del bersaglio non accetta questa famiglia di veleno.
+Msg9092=L'arma del bersaglio è già avvelenata.
+Msg9093=Hai cosparso l'arma di veleno.
+Msg9094=¬1 ha cosparso la tua arma di veleno.
 
 [QUEST1]
 Nombre=Riposo finale
