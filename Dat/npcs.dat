@@ -542,6 +542,7 @@ CollectibleCardIndex=274
 
 [NPC24] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Neria <Alquimias de Principiante>
+ShowName=1
 Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir
 DescClose=¡Hasta pronto!
 Body=451
@@ -768,6 +769,7 @@ TipoItems=100
 CollectibleCardIndex=329
 [NPC56] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Elerion <Herrero Eterno>
+ShowName=1
 Desc=¡Bienvenidos a mi Forja! Aquí, la fortaleza elfa se forja en armas de incomparable belleza y poder.
 DescClose=¡Hasta luego!
 Body=6087
@@ -1147,6 +1149,7 @@ TipoItems=100
 
 [NPC107] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Capitán Rowen <Quest del Pantano>
+ShowName=1
 SoundOpen=600
 Desc=¡Alto ahí, ciudadano! Los exploradores regresaron del pantano con malas noticias. Trolls, abominaciones y los malditos guardas del pantano se están organizando. Si no actuamos pronto, Ullathorpe será el próximo objetivo.
 Body=478
@@ -1971,15 +1974,13 @@ BackUp=0
 CaminataLen=2
 Caminata1=0:-3:9000
 Caminata2=0:0:9000
-NumQuest=8
-QuestNumber1=190
-QuestNumber2=193
-QuestNumber3=407
-QuestNumber4=408
-QuestNumber5=409
-QuestNumber6=410
-QuestNumber7=411
-QuestNumber8=412
+NumQuest=6
+QuestNumber1=407
+QuestNumber2=408
+QuestNumber3=409
+QuestNumber4=410
+QuestNumber5=411
+QuestNumber6=412
 
 [NPC408]
 Name=Makrom <Quest de Dungeon Newbie>
@@ -11077,6 +11078,7 @@ CollectibleCardIndex=342
 
 [NPC1081] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Gertha <Maestra Sastre>
+ShowName=1
 SoundOpen=702
 SoundClose=703
 Head=0
@@ -11094,6 +11096,7 @@ CollectibleCardIndex=127
 
 [NPC1082] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Grom <Herrero Brutal>
+ShowName=1
 Desc=Harás respetar nuestra raza con estas armas!
 DescClose=¡Hasta pronto!
 Body=6079
@@ -11122,6 +11125,7 @@ CollectibleCardIndex=182
 
 [NPC1083] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Clarice Coraza <Forjadora Experta>
+ShowName=1
 Desc=Un flacucho como tú necesita un buen acero allí fuera.
 DescClose=¡Hasta pronto!
 Body=5830
@@ -11268,6 +11272,7 @@ NumQuest=1
 QuestNumber1=44
 [NPC1088] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Cormac <Pescador>
+ShowName=1
 IT_Desc=Il mare ha così tanto da offrire! Controlla i miei strumenti, potrebbe esserci qualcosa che ti serve.
 FR_Desc=La mer a tellement à offrir! Vérifiez mes outils, il peut y avoir quelque chose qui vous sert.
 PT_Desc=O mar tem muito a oferecer! Verifique minhas ferramentas, pode haver algo que lhe serve.
@@ -11533,6 +11538,7 @@ PoderEvasion=140
 Domable=210
 [NPC1106] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Philiph
+ShowName=1
 Body=6031
 Head=0
 BodyIdle=6029
@@ -11947,6 +11953,7 @@ Body=401
 Desc=Aquí encontrarás las mejores armaduras de estas frías tierras.
 Head=0
 Name=Kurzak <Herreria>
+ShowName=1
 SoundClose=2192
 SoundOpen=2197
 NpcType=0
@@ -13107,6 +13114,7 @@ ReSpawn=0
 TipoItems=100
 [NPC1186] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Thrain <Martillo Incansable>
+ShowName=1
 IT_Desc=Benvenuti nella mia Forgia!
 FR_Desc=Bienvenue dans ma Forge !
 PT_Desc=Bem-vindos à minha Forja!
@@ -13136,6 +13144,7 @@ CollectibleCardIndex=177
 
 [NPC1187] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Thrain <Martillo Incansable>
+ShowName=1
 Head=0
 SoundOpen=1029
 IT_Desc=Prendi solo il meglio qui!
@@ -14969,6 +14978,7 @@ QuestNumber1=165
 
 [NPC1295] 'Realineado a oficial 2026-06-08 (slot repropuesto)
 Name=Astrid <Quest Hongo de Luz>
+ShowName=1
 Desc=¡Estudiaba la Serpiente Albina para poder extraer y sinterizar su veneno, pero por un descuido ocurrió una catástrofe!
 Body=889
 Head=0
@@ -15088,6 +15098,7 @@ GiveEXP=450
 
 [NPC1306] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Pleria <Quest de Paladin>
+ShowName=1
 Desc=Necesito que consigas los componentes del rito. Solo un paladín que los obtenga por sí mismo puede despertar su poder.
 Body=6249
 Head=0
@@ -18060,6 +18071,7 @@ CollectibleCardIndex=77
 
 [NPC1500] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Aurum <Herrero Real>
+ShowName=1
 Desc=El equipamiento ideal para un Ciudadano como tú.
 Body=6085
 BodyIdle=6084
@@ -18614,6 +18626,7 @@ PoderEvasion=25
 
 [NPC1550] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Malek <Herrero Oscuro>
+ShowName=1
 Desc=El equipamiento ideal para un Criminal como tú.
 Body=6091
 BodyIdle=6090
@@ -18874,6 +18887,7 @@ CollectibleCardIndex=326
 
 [NPC256] 'Realineado a oficial 2026-06-08 (slot repropuesto) | cartas: plan 23.005
 Name=Jarl Njord <Gobernador de Forgat>
+ShowName=1
 Head=0
 Desc=¡Bienvenido a Forgat la tierra de los Vikingos!
 Body=4006
