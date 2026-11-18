@@ -54419,7 +54419,7 @@ MinHit=0
 Name=Alas de Fénix
 Texto=El fuego necesario para sobrevivir al frio.
 GrhIndex=49112
-ObjType=7
+ObjType=38
 Valor=0
 MaxDef=1
 MinDef=1
@@ -54469,7 +54469,7 @@ MinHit=0
 [OBJ6270]
 Name=Escudo del Fénix
 Texto=Objeto consumible.
-GrhIndex=28750
+GrhIndex=49075
 ObjType=40
 Valor=0
 MaxDef=0
