@@ -24898,14 +24898,14 @@ CollectibleCardRarity=1
 ObjType=57
 
 [OBJ996]
-Name=Boca Shield
+Name=Blue and Gold Shield
 GrhIndex=86178
 ObjType=40
 MAXDEF=0
 MINDEF=0
 Valor=1000
 MinHit=1
-Texto=Objeto consumible.
+Texto=Escudo Azul y Oro
 
 [OBJ997]
 Name=Escamas del Dragón Negro
@@ -25112,13 +25112,13 @@ Hechizo=289
 Texto=Restores between 12 and 25 energy points.
 
 [OBJ1020]
-Name=Locomia mask
+Name=Eighties Mask
 GrhIndex=10206
 ObjType=17
 MAXDEF=0
 MINDEF=0
 Valor=60
-texto=Change your appearance with this mask
+Texto=Eighties Mask
 
 [OBJ1021]
 Name=Clover mask
@@ -25220,13 +25220,13 @@ Valor=50
 texto=Change your appearance with this mask
 
 [OBJ1033]
-Name=Vendetta mask
+Name=Conspirator Mask
 GrhIndex=10223
 ObjType=17
 MAXDEF=0
 MINDEF=0
 Valor=50
-texto=Change your appearance with this mask
+Texto=Conspirator Mask
 
 [OBJ1034]
 Name=Diabolical mask
@@ -40305,14 +40305,14 @@ Valor=3
 Texto=Llave Casa de Arkhein 17
 
 [OBJ3293]
-Name=Velez Shield
+Name=Blue V Shield
 GrhIndex=86177
 ObjType=40
 MAXDEF=0
 MINDEF=0
 Valor=1000
 MinHit=15
-Texto=Objeto consumible.
+Texto=Escudo de la V Azul
 
 [OBJ3294]
 Name=Argentina Shield
@@ -40325,24 +40325,24 @@ MinHit=15
 Texto=Escudo de Argentina
 
 [OBJ3295]
-Name=Cap America Shield
+Name=Starred Shield
 GrhIndex=86144
 ObjType=16
 MAXDEF=0
 MINDEF=0
 Valor=200
 MinHit=1
-Texto=Escudo Cap America
+Texto=Escudo Estrellado
 
 [OBJ3296]
-Name=River Shield
+Name=Red Band Shield
 GrhIndex=86176
 ObjType=40
 MAXDEF=0
 MINDEF=0
 Valor=1000
 MinHit=1
-Texto=Objeto consumible.
+Texto=Escudo de la Banda Roja
 
 [OBJ3297]
 Name=Argentinian shirt Dwarf
@@ -52976,32 +52976,32 @@ Valor=80
 Texto=Casco de Cuernos Invertidos
 
 [OBJ4967]
-Name=Casco de Cocodrilo Dundee
+Name=Sombrero de Cazador de Cocodrilos
 GrhIndex=11410
 ObjType=17
 Valor=80
-Texto=Casco de Cocodrilo Dundee
+Texto=Sombrero de Cazador de Cocodrilos
 
 [OBJ4968]
-Name=Casco de Aioria de Leo
+Name=Casco del León Dorado
 GrhIndex=11411
 ObjType=17
 Valor=80
-Texto=Casco de Aioria de Leo
+Texto=Casco del León Dorado
 
 [OBJ4969]
-Name=Casco de Gohan
+Name=Casco del Guerrero Celestial
 GrhIndex=11412
 ObjType=17
 Valor=80
-Texto=Casco de Gohan
+Texto=Casco del Guerrero Celestial
 
 [OBJ4970]
-Name=Casco de Hokage
+Name=Sombrero del Líder Ninja
 GrhIndex=11413
 ObjType=17
 Valor=80
-Texto=Casco de Hokage
+Texto=Sombrero del Líder Ninja
 
 [OBJ4971]
 Name=Casco de Pescador
@@ -53144,11 +53144,11 @@ Valor=80
 Texto=Casco Nordico 2
 
 [OBJ4991]
-Name=Casco de Shura de Capricornio
+Name=Casco de la Cabra Dorada
 GrhIndex=11396
 ObjType=17
 Valor=80
-Texto=Casco de Shura de Capricornio
+Texto=Casco de la Cabra Dorada
 
 [OBJ4992]
 Name=Gorro de Cocinero
@@ -54810,8 +54810,8 @@ ObjType=41
 Valor=1600
 
 [OBJ5016]
-Name=Batman head
-Texto=Batman Head
+Name=Bat Head
+Texto=Bat Head
 GrhIndex=26562
 ObjType=41
 Valor=1600
@@ -55034,8 +55034,8 @@ ObjType=41
 Valor=1600
 
 [OBJ5049]
-Name=Cells Head
-Texto=Cells Head
+Name=Insectoid Head
+Texto=Insectoid Head
 GrhIndex=26550
 ObjType=41
 Valor=1600

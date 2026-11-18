@@ -11573,7 +11573,7 @@ en_Name=Apprentice Hat
 PIELTIGRE=24
 
 [OBJ996]
-Name=Escudo de Boca
+Name=Escudo Azul y Oro
 Anim=98
 MinELV=1
 NumRopaje=2
@@ -11587,9 +11587,9 @@ DosManos=1
 Crucial=0
 MinHit=1
 NFT=1
-en_name=Boca Shield
+en_Name=Blue and Gold Shield
 Porcentaje=0
-Texto=Objeto consumible.
+Texto=Escudo Azul y Oro
 
 [OBJ997]
 Name=Escamas del Dragón Negro
@@ -11960,7 +11960,7 @@ en_texto=Restores between 12 and 25 energy points.
 en_Name=Energy Potion (Alchemy)
 
 [OBJ1020]
-Name=Máscara Locomia
+Name=Máscara Ochentosa
 Anim=133
 NumRopaje=2
 GrhIndex=10206
@@ -11971,9 +11971,9 @@ MINDEF=0
 Valor=60
 NFT=1
 NoSeCae=1
-en_name=Locomia mask
-texto=Cambia tu apariencia con esta mascara
-en_texto=Change your appearance with this mask
+en_Name=Eighties Mask
+Texto=Máscara Ochentosa
+en_Texto=Eighties Mask
 
 [OBJ1021]
 Name=Antifaz de Trebol
@@ -12152,7 +12152,7 @@ texto=Cambia tu apariencia con esta mascara
 en_texto=Change your appearance with this mask
 
 [OBJ1033]
-Name=Máscara Vendetta
+Name=Máscara del Conspirador
 Anim=117
 NumRopaje=2
 GrhIndex=10223
@@ -12163,9 +12163,9 @@ MINDEF=0
 Valor=50
 NFT=1
 NoSeCae=1
-en_name=Vendetta mask
-texto=Cambia tu apariencia con esta mascara
-en_texto=Change your appearance with this mask
+en_Name=Conspirator Mask
+Texto=Máscara del Conspirador
+en_Texto=Conspirator Mask
 
 [OBJ1034]
 Name=Máscara Diabolica
@@ -22221,7 +22221,7 @@ NoseCae=1
 Instransferible=1
 Intirable=1
 Crucial=0
-NFT=1
+NFT=0
 LocaleID=37
 Texto=Expande 6 slots de tu inventario
 en_name=Backpack
@@ -37173,7 +37173,7 @@ NFT=0
 en_Name=Arkhein House Key 17
 
 [OBJ3293]
-Name=Escudo de Velez
+Name=Escudo de la V Azul
 Anim=96
 MinELV=1
 NumRopaje=2
@@ -37187,9 +37187,9 @@ DosManos=1
 Crucial=0
 MinHit=15
 NFT=1
-en_name=Velez Shield
+en_Name=Blue V Shield
 Porcentaje=0
-Texto=Objeto consumible.
+Texto=Escudo de la V Azul
 
 [OBJ3294]
 Name=Escudo de Argentina
@@ -37213,7 +37213,7 @@ Porcentaje=0
 Texto=Escudo de Argentina
 
 [OBJ3295]
-Name=Escudo Cap America
+Name=Escudo Estrellado
 Anim=95
 MinELV=1
 NumRopaje=2
@@ -37227,12 +37227,12 @@ DosManos=1
 Crucial=0
 MinHit=1
 NFT=1
-en_name=Cap America Shield
+en_Name=Starred Shield
 Porcentaje=0
-Texto=Escudo Cap America
+Texto=Escudo Estrellado
 
 [OBJ3296]
-Name=Escudo de River
+Name=Escudo de la Banda Roja
 Anim=94
 MinELV=1
 NumRopaje=2
@@ -37246,9 +37246,9 @@ DosManos=1
 Crucial=0
 MinHit=1
 NFT=1
-en_name=River Shield
+en_Name=Red Band Shield
 Porcentaje=0
-Texto=Objeto consumible.
+Texto=Escudo de la Banda Roja
 
 [OBJ3297]
 Name=Camiseta Argentina Enano
@@ -62243,7 +62243,7 @@ Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Casco de Cuernos Invertidos
 
 [OBJ4967]
-Name=Casco de Cocodrilo Dundee
+Name=Sombrero de Cazador de Cocodrilos
 Anim=216
 NumRopaje=2
 GrhIndex=11410
@@ -62253,10 +62253,10 @@ Valor=80
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Casco de Cocodrilo Dundee
+Texto=Sombrero de Cazador de Cocodrilos
 
 [OBJ4968]
-Name=Casco de Aioria de Leo
+Name=Casco del León Dorado
 Anim=217
 NumRopaje=2
 GrhIndex=11411
@@ -62266,10 +62266,10 @@ Valor=80
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Casco de Aioria de Leo
+Texto=Casco del León Dorado
 
 [OBJ4969]
-Name=Casco de Gohan
+Name=Casco del Guerrero Celestial
 Anim=218
 NumRopaje=2
 GrhIndex=11412
@@ -62279,10 +62279,10 @@ Valor=80
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Casco de Gohan
+Texto=Casco del Guerrero Celestial
 
 [OBJ4970]
-Name=Casco de Hokage
+Name=Sombrero del Líder Ninja
 Anim=219
 NumRopaje=2
 GrhIndex=11413
@@ -62292,7 +62292,7 @@ Valor=80
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Casco de Hokage
+Texto=Sombrero del Líder Ninja
 
 [OBJ4971]
 Name=Casco de Pescador
@@ -62555,7 +62555,7 @@ Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
 Texto=Casco Nordico 2
 
 [OBJ4991]
-Name=Casco de Shura de Capricornio
+Name=Casco de la Cabra Dorada
 Anim=244
 NumRopaje=2
 GrhIndex=11396
@@ -62565,7 +62565,7 @@ Valor=80
 NFT=1
 NoSeCae=1
 Crucial=1 'Solo dejar en 1 si el ítem lo vende un comerciante, sino se bugea
-Texto=Casco de Shura de Capricornio
+Texto=Casco de la Cabra Dorada
 
 [OBJ4992]
 Name=Gorro de Cocinero
@@ -69893,8 +69893,8 @@ pt_Name=A cabeça de Deadpool
 pt_Texto=Deadpools Head
 
 [OBJ5016] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
-Name=Cabeza de Batman
-Texto=Batman head
+Name=Cabeza de Murciélago
+Texto=Cabeza de Murciélago
 GrhIndex=26562
 ObjType=41
 Valor=1600
@@ -69904,14 +69904,14 @@ NFT=1
 NOSECAE=1
 NumRopaje=2
 SubTipo=2
-en_Name=Batman head
-en_Texto=Batman Head
-fr_Name=La tête de Batman
-fr_Texto=Tête de batman
-it_Name=La testa di Batman
-it_Texto=Batman Head
-pt_Name=Cabeça de Batman
-pt_Texto=Batman Head
+en_Name=Bat Head
+en_Texto=Bat Head
+fr_Name=Bat Head
+fr_Texto=Bat Head
+it_Name=Bat Head
+it_Texto=Bat Head
+pt_Name=Bat Head
+pt_Texto=Bat Head
 
 [OBJ5017] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
 Name=Cabeza de Chaman
@@ -70435,8 +70435,8 @@ pt_Name=A cabeça de Majin Boo
 pt_Texto=Majin Boos Head
 
 [OBJ5049] 'Reconstruido de localindex oficial 2026-06-08 + wiki API oficial
-Name=Cabeza de Cell
-Texto=Cells Head
+Name=Cabeza de Insectoide
+Texto=Cabeza de Insectoide
 GrhIndex=26550
 ObjType=41
 Valor=1600
@@ -70446,14 +70446,14 @@ NFT=1
 NOSECAE=1
 NumRopaje=2
 SubTipo=2
-en_Name=Cells Head
-en_Texto=Cells Head
-fr_Name=Tête de cellule
-fr_Texto=Les cellules se dirigent
-it_Name=Testa cellulare
-it_Texto=Testa delle celle
-pt_Name=Cabeça da célula
-pt_Texto=Cabeça das células
+en_Name=Insectoid Head
+en_Texto=Insectoid Head
+fr_Name=Insectoid Head
+fr_Texto=Insectoid Head
+it_Name=Insectoid Head
+it_Texto=Insectoid Head
+pt_Name=Insectoid Head
+pt_Texto=Insectoid Head
 
 [OBJ5050] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Cabeza de Zombie
