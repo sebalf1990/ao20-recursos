@@ -64739,8 +64739,10 @@ Anim=182
 [OBJ6270] 'Reconstruido de localindex oficial 2026-06-08; logica server pendiente (repo capado)
 Name=Escudo del Fénix
 Texto=Objeto consumible.
-GrhIndex=28750
+GrhIndex=49075
 ObjType=40
+' Fixed 2026-11-18: icon 28750 was a potion; Anim=102 -> ESC102 (2140.png molde 10)
+Anim=102
 Valor=0
 MaxDef=0
 MinDef=0
