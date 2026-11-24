@@ -1,0 +1,63 @@
+' CalendarioEventos.dat - automatic events of the server. Hour is the local time of the server (ART on the VM).
+' Read at server start from Dat and again by the GM chat command ~CALENDARIO RECARGAR (no restart needed).
+' Format notes: the parser takes any line that has an equals sign as a key, so no equals sign in comments.
+'
+' [CALENDARIO] defaults: VentanaMin 30 (range 5-180), ReintentoMin 10 (5-60), AvisoPrevioMin 5 (0-30, parsed
+' but no notice is sent yet), BloquearConInvasion 1 (an active invasion blocks the lobby turnos).
+'
+' [TURNOS]: up to 48 lines named Turno1 to Turno48 (gaps allowed). Value format:
+'     Dias|HH:MM|VARIANTE   or   Dias|HH:MM|VARIANTE|VentanaMin
+' Dias is TODOS or a list of DOM,LUN,MAR,MIE,JUE,VIE,SAB. A turno opens at the first minute inside
+' [HH:MM, HH:MM + window), retries every ReintentoMin minutes while blocked, and ends OMITIDO if the window
+' closes. One open per turno per date, kept in the table event_calendar_run (survives a restart).
+' A window that crosses midnight belongs to the day it started.
+'
+' [VARIANTE_<NAME>]: Modo is DEATHMATCH, CACERIA, CAPTURA or NAVAL (INVASION is not enabled in this build).
+' Optional keys and defaults: MinLevel 1, MaxLevel 47, MinPlayers 2, MaxPlayers 20, TeamSize 0, TeamType 1,
+' RoundNumber 1 (CAPTURA 3), InscriptionFee 0, MinOnline (same as MinPlayers; players online without staff),
+' Description (empty: the announcement uses the name of the mode, max 40 characters).
+' Only the variants that a turno names are read; the ones below are examples (values NOT decided).
+'
+' This file ships with ZERO turnos: it changes nothing until the owner decides the real calendar.
+
+[CALENDARIO]
+Version=1
+VentanaMin=30
+ReintentoMin=10
+BloquearConInvasion=1
+AvisoPrevioMin=5
+
+[TURNOS]
+' Example lines (to use: copy one, remove the leading apostrophe, put the equals sign after the name):
+'     Turno1 TODOS|19:00|DM_EJEMPLO
+'     Turno2 SAB|21:00|CTF_EJEMPLO|45
+
+[VARIANTE_DM_EJEMPLO]
+Modo=DEATHMATCH
+MinLevel=1
+MaxLevel=47
+MinPlayers=2
+MaxPlayers=20
+TeamType=1
+RoundNumber=1
+InscriptionFee=500
+MinOnline=4
+
+[VARIANTE_CTF_EJEMPLO]
+Modo=CAPTURA
+MinLevel=20
+MaxLevel=47
+MinPlayers=4
+MaxPlayers=20
+RoundNumber=3
+InscriptionFee=1000
+MinOnline=6
+
+[VARIANTE_CACERIA_EJEMPLO]
+Modo=CACERIA
+MinLevel=1
+MaxLevel=47
+MinPlayers=2
+MaxPlayers=20
+InscriptionFee=0
+MinOnline=2
