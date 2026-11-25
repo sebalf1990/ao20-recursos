@@ -16,9 +16,10 @@
 ' Optional keys and defaults: MinLevel 1, MaxLevel 47, MinPlayers 2, MaxPlayers 20, TeamSize 0, TeamType 1,
 ' RoundNumber 1 (CAPTURA 3), InscriptionFee 0, MinOnline (same as MinPlayers; players online without staff),
 ' Description (empty: the announcement uses the name of the mode, max 40 characters).
-' Only the variants that a turno names are read; the ones below are examples (values NOT decided).
+' Only the variants that a turno names are read.
 '
-' This file ships with ZERO turnos: it changes nothing until the owner decides the real calendar.
+' Real calendar decided with the owner on 2026-11-25 (see ia/decisiones.md). Nothing opens while the
+' feature toggle automatic_events is 0; an Admin turns it on live with /FEATURETOGGLE automatic_events 1.
 
 [CALENDARIO]
 Version=1
@@ -28,36 +29,54 @@ BloquearConInvasion=1
 AvisoPrevioMin=5
 
 [TURNOS]
-' Example lines (to use: copy one, remove the leading apostrophe, put the equals sign after the name):
-'     Turno1 TODOS|19:00|DM_EJEMPLO
-'     Turno2 SAB|21:00|CTF_EJEMPLO|45
+Turno1=LUN,MAR,MIE,JUE,VIE,SAB|21:00|CACERIA_BAJOS
+Turno2=LUN,MIE,VIE|22:00|DM_MEDIOS
+Turno3=MAR,JUE|22:00|DM_ALTOS
+Turno4=SAB|22:00|CTF_ALTOS
+Turno5=DOM|19:00|DM_MEDIOS
+Turno6=DOM|22:00|DM_ALTOS
 
-[VARIANTE_DM_EJEMPLO]
-Modo=DEATHMATCH
+[VARIANTE_CACERIA_BAJOS]
+Modo=CACERIA
 MinLevel=1
+MaxLevel=24
+MinPlayers=2
+MaxPlayers=20
+InscriptionFee=500
+MinOnline=4
+Description=Cacería nivel 1 a 24
+
+[VARIANTE_DM_MEDIOS]
+Modo=DEATHMATCH
+MinLevel=25
+MaxLevel=35
+MinPlayers=2
+MaxPlayers=20
+TeamType=1
+RoundNumber=1
+InscriptionFee=3000
+MinOnline=4
+Description=DeathMatch nivel 25 a 35
+
+[VARIANTE_DM_ALTOS]
+Modo=DEATHMATCH
+MinLevel=36
 MaxLevel=47
 MinPlayers=2
 MaxPlayers=20
 TeamType=1
 RoundNumber=1
-InscriptionFee=500
+InscriptionFee=6000
 MinOnline=4
+Description=DeathMatch nivel 36 a 47
 
-[VARIANTE_CTF_EJEMPLO]
+[VARIANTE_CTF_ALTOS]
 Modo=CAPTURA
-MinLevel=20
+MinLevel=25
 MaxLevel=47
 MinPlayers=4
 MaxPlayers=20
 RoundNumber=3
-InscriptionFee=1000
-MinOnline=6
-
-[VARIANTE_CACERIA_EJEMPLO]
-Modo=CACERIA
-MinLevel=1
-MaxLevel=47
-MinPlayers=2
-MaxPlayers=20
-InscriptionFee=0
-MinOnline=2
+InscriptionFee=5000
+MinOnline=8
+Description=Captura la Bandera nivel 25 a 47
