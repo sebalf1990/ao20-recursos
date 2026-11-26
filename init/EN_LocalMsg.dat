@@ -2317,3 +2317,5 @@ Msg9091=The target's weapon does not accept this poison family.
 Msg9092=The target's weapon is already poisoned.
 Msg9093=You coated the weapon with poison.
 Msg9094=¬1 coated your weapon with poison.
+Msg9095=This character was deleted and can no longer be used.
+Msg9096=The deletion of this character was cancelled.
